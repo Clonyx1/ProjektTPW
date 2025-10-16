@@ -259,13 +259,10 @@ footer {
 }
 
 /*SPOLEČNÉ STYLY*/
-.button-secondary button {
-    font-size: var(--font-size-m);
+.button-secondary a{
+    font-size: var(--font-size-l);
     background-color: var(--soft);
-    width: calc(var(--size-unit-7) * 8);
-    height: calc(var(--size-unit-6) * 2);
-}
-.button-secondary button a{
+    padding: var(--size-unit-2) calc(var(--size-unit-7) * 2);
     text-decoration: none;
     color: var(--neutral);
 }
@@ -546,10 +543,9 @@ footer {
         font-size: var(--font-size-s);
     }
 
-    .button-secondary button {
+    .button-secondary a {
         font-size: var(--font-size-s);
-        width: calc((var(--size-unit-7) * 5));
-        height: var(--size-unit-7);
+        padding: var(--size-unit-2) var(--size-unit-7);
     }
 
     /*Products page styles*/
@@ -640,10 +636,9 @@ footer {
         font-size: var(--font-size-xs);
     }
 
-    .button-secondary button {
+    .button-secondary a {
         font-size: var(--font-size-xs);
-        width: calc((var(--size-unit-7) * 4));
-        height: var(--size-unit-6);
+        padding: var(--size-unit-2) var(--size-unit-6);
     }
 
     /*Hero section styles*/
