@@ -100,7 +100,6 @@ body {
 }
 
 .navigation-right a {
-    text-decoration: none;
     color: var(--neutral);
 }
 
@@ -313,6 +312,11 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.site-content .search-section{
+    margin-top: var(--size-unit-5);
+    margin-bottom: var(--size-unit-7);
 }
 
 .search-section .heading-standard h2 {
@@ -643,16 +647,18 @@ footer {
 
     /*Hero section styles*/
     .hero {
-        background-image: url(obrazky/hero-smallest.png);
+        background-image: url(obrazky/hero-xs.png);
         height: calc(var(--size-unit-7) * 8);
         margin-top: 0;
     }
 
     .heading-display h2 {
+        margin-top: var(--size-unit-3);
         background-image: url(obrazky/underscore-black.png);
     }
 
     .hero-text p {
+        margin-top: 0;
         font-size: var(--font-size-m);
     }
 
@@ -713,6 +719,10 @@ footer {
     .hero-link a {
         font-size: var(--font-size-m);
     }
+    /*HERO styles*/
+    .hero {
+        background-image: url(obrazky/hero-2xs.png);
+    }
 
     /*Contact banner styles*/
     .contact-banner .main-text p,
@@ -733,7 +743,19 @@ footer {
     .search-bar input {
         width: calc(var(--size-unit-7) * 6);
     }
-
+    .product-card{
+        height: calc(var(--size-unit-7) * 6);
+    }
+    .product-card-img img {
+        height: calc(var(--size-unit-7) * 4);
+    }
+    .product-card-heading{
+        font-size: var(--font-size-2xs);
+    }
+    .product-card-price p {
+        font-size: var(--font-size-xs);
+    }
+    
     /*Contact page styles*/
     .contacts-mobile {
         display: grid;
