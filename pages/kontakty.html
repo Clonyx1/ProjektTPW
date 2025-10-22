@@ -16,6 +16,23 @@
 
 <body>
     <div class="site-container">
+        <!--Vyskakovací okno-->
+        <div class="pop-up-wrap">
+            <div class="pop-up">
+                <div class="heading-standard">
+                    <h2>DŮLEŽITÉ</h2>
+                </div>
+
+                <div class="text-important">
+                    <p>
+                        Tato stránka vznikla jako studentský projekt. Nejedná se o reálné stránky pekárny.
+                    </p>
+                </div>
+                <div class="button-highlight">
+                    <button id="closePopUp">Rozumím</button>
+                </div>
+            </div>
+        </div>
         <!--Header stránky-->
         <header class="site-header">
             <!--Navigace stránky-->
@@ -29,7 +46,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="navigation-right">
+                <nav class="navigation">
                     <ul>
                         <li>
                             <a href="nabidka.html">Nabídka produktů</a>
@@ -38,7 +55,7 @@
                             <a href="kontakty.html">Kontakt</a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </nav>
         </header>
         <main class="site-content">
@@ -86,7 +103,9 @@
                                 <input type="text" id="name" name="name" placeholder="Jméno a příjmení">
                                 <input type="email" id="email" name="email" placeholder="Email"><br>
                                 <textarea name="text" id="text" placeholder="Text Vaší zprávy"></textarea> <br>
-                                <button type="submit" id="send" name="send">ODESLAT</button>
+                                <div class="button-highlight">
+                                    <button type="submit" id="send" name="send">ODESLAT</button>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -220,17 +239,25 @@
             </section>
         </main>
         <footer>
-            <div class="footer-copyright">
-                <p>&copy 2025 Pekárna Lukáš</p>
+            <div class="footer-top">
+                <div class="footer-copyright">
+                    <p>&copy 2025 Pekárna Lukáš</p>
+                </div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="../index.html">Hlavní stránka</a></li>
+                        <li><a href="nabidka.html">Nabídka produktů</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="footer-links">
-                <ul>
-                    <li><a href="nabidka.html">Nabídka produktů</a></li>
-                    <li><a href="kontakty.html">Kontakty</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <div class="text-important">
+                    <p>Tato stránka vznikla jako studentský projekt. Nejedná se o reálné stránky pekárny.</p>
+                </div>
             </div>
         </footer>
     </div>
+    <script src="../script.js"></script>
 </body>
 
 </html>
