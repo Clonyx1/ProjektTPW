@@ -10,6 +10,10 @@
     --soft: #e4e4e4;
     --important: rgb(233, 135, 135);
 
+    /*Stíny*/
+    --shadow-standard: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 8px 12px rgba(0, 0, 0, 0.2);
+    --shadow-big: 0 8px 16px rgba(0, 0, 0, 0.3);
     /*Velikosti písma*/
     --font-size-3xl: 2.986rem;
     --font-size-2xl: 2.488rem;
@@ -64,7 +68,7 @@ body {
 /*SPOLEČNÉ STYLY*/
 .navigation a:hover {
     color: var(--accent);
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-shadow: var(--shadow-standard);
 }
 
 .button-secondary a {
@@ -77,7 +81,7 @@ body {
 
 .button-secondary a:hover {
     filter: sepia(0.3);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-standard);
 }
 
 .button-highlight button {
@@ -91,7 +95,7 @@ body {
 }
 
 .button-highlight button:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-standard);
     filter: sepia(0.2);
 }
 
@@ -129,6 +133,7 @@ body {
 }
 
 .text-important p {
+    box-sizing: border-box;
     margin-left: 2%;
     margin-right: 2%;
     padding: var(--size-unit-1);
@@ -175,12 +180,46 @@ body {
     margin-right: 2%;
 }
 
-/*Header styly*/
+/*Top bar styles*/
+.top-bar {
+    background-color: var(--highlight);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: var(--size-unit-7);
+}
+
+.top-bar-links-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-right: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: calc(var(--size-unit-7)*30);
+}
+
+.top-bar-links-container .text-standard {
+    width: 100%;
+}
+
+.top-bar-links-container a {
+    margin-left: var(--size-unit-4);
+    text-decoration: none;
+}
+
+.top-bar-links-container svg {
+    height: var(--size-unit-6);
+}
+
+/*Header styles*/
 .site-header {
     height: calc(var(--size-unit-2) * 15);
     max-width: calc(var(--size-unit-7)*30);
     border-bottom: 2px solid var(--neutral);
-    margin-bottom: var(--size-unit-3);
 }
 
 .site-navigation {
@@ -206,6 +245,11 @@ body {
 .main-logo a {
     text-decoration: none;
     color: var(--neutral);
+}
+
+.main-logo a:hover {
+    color: var(--accent);
+    text-shadow: var(--shadow-big);
 }
 
 .navigation {
@@ -234,7 +278,7 @@ body {
     font-size: var(--font-size-m);
 }
 
-/*Hlavní část styly*/
+/*Main part styles*/
 .site-content {
     width: 100%;
     max-width: calc(var(--size-unit-7)*30);
@@ -284,6 +328,13 @@ body {
     text-decoration: underline;
     color: var(--neutral);
     background-color: var(--primary);
+    transition: 0.5s ease-in;
+}
+
+.hero-link a:hover {
+    color: var(--primary);
+    background-color: var(--neutral);
+    text-shadow: var(--shadow-medium);
 }
 
 /*SOCIAL MEDIA SECTION*/
@@ -438,7 +489,7 @@ footer {
 }
 
 .product-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-medium);
     cursor: pointer;
 }
 
@@ -465,8 +516,24 @@ footer {
 }
 
 .delivery-info {
+    width: 100%;
     grid-column: 1 / 2;
     grid-row: 1;
+}
+
+.delivery-info .text-important p {
+    width: 80%;
+}
+
+.delivery-info-table {
+    margin-left: 2%;
+    width: 80%;
+}
+
+.delivery-info-table th,
+td {
+    border: 1px solid var(--neutral);
+    text-align: left;
 }
 
 .contact-form-wrap {
@@ -693,7 +760,16 @@ form .button-highlight button {
         font-size: var(--font-size-2xs);
     }
 
-    /*Header styly*/
+    /*Top bar styles*/
+    .top-bar-links-container .text-standard p {
+        font-size: var(--font-size-s);
+    }
+
+    /*Header styles*/
+    .site-header {
+        height: calc(var(--size-unit-6) * 3);
+    }
+
     .main-logo a {
         font-size: var(--font-size-l);
     }
@@ -718,7 +794,7 @@ form .button-highlight button {
     .hero {
         background-image: url(obrazky/hero-xs.png);
         height: calc(var(--size-unit-7) * 8);
-        margin-top: 0;
+        margin-top: var(--size-unit-3);
     }
 
     .heading-display h2 {
@@ -738,6 +814,12 @@ form .button-highlight button {
     .hero-link a {
         color: var(--primary);
         background-color: var(--neutral);
+    }
+
+    .hero-link a:hover {
+        color: var(--neutral);
+        background-color: var(--primary);
+        text-shadow: var(--shadow-medium);
     }
 
     /*Products page styles*/
@@ -793,6 +875,19 @@ form .button-highlight button {
 
     .hero-link a {
         font-size: var(--font-size-m);
+    }
+
+    /*Top bar styles*/
+    .top-bar-links-container .text-standard p {
+        font-size: var(--font-size-xs);
+    }
+
+    .top-bar-links-container svg {
+        height: var(--size-unit-5);
+    }
+
+    .top-bar {
+        height: calc(var(--size-unit-6) * 1.2);
     }
 
     /*HERO styles*/
@@ -869,24 +964,31 @@ form .button-highlight button {
     }
 }
 
-@media(max-width: 450px){
-    /*Footer styles*/
-    .footer-top .navigation {
-    flex-direction: column;
-    justify-content: right;
+@media(max-width: 450px) {
+
+    /*Top bar styles*/
+    .top-bar-links-container .text-standard p {
+        font-size: var(--font-size-2xs);
     }
 
-    .footer-top .navigation a{
-    font-size: var(--font-size-2xs);
+    /*Footer styles*/
+    .footer-top .navigation {
+        flex-direction: column;
+        justify-content: right;
     }
+
+    .footer-top .navigation a {
+        font-size: var(--font-size-2xs);
+    }
+
     .footer-top .navigation ul {
-    flex-direction: column;
-    gap: var(--size-unit-2);
+        flex-direction: column;
+        gap: var(--size-unit-2);
     }
 
     .footer-top .navigation ul li {
-    font-size: var(--font-size-m);
-    text-align: right;
+        font-size: var(--font-size-m);
+        text-align: right;
     }
 
 }
