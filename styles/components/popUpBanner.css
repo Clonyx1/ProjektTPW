@@ -1,0 +1,51 @@
+/*Pop up banner*/
+.pop-up-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(var(--neutral-rgb), 0.9);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.pop-up-wrap div{
+    padding: var(--size-unit-3);
+}
+.pop-up-wrap.hide {
+    display: none;
+}
+
+.pop-up {
+    box-sizing: border-box;
+    padding: var(--size-unit-3);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--soft);
+}
+
+.pop-up-close-button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.pop-up .button-highlight button {
+    float: right;
+    margin-right: 2%;
+}
+
+@media(max-width: 620px){
+    .pop-up .heading-standard h2{
+        font-size: var(--font-size-l);
+    }
+    .pop-up .text-important p{
+        font-size: var(--font-size-s);
+    }
+    .pop-up div{
+        padding: var(--size-unit-2);
+    }
+}

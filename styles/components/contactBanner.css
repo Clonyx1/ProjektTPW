@@ -1,0 +1,47 @@
+/*CONTACT BANNER styles*/
+.contact-banner {
+    padding: var(--size-unit-5);
+    background-color: var(--accent);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contact-banner .main-text {
+    font-size: var(--font-size-l);
+    color: var(--highlight);
+}
+
+.contact-banner .secondary-text {
+    font-size: var(--font-size-l);
+    color: var(--base);
+}
+
+/*---------------------------------MEDIA QUERY--------------------------------*/
+
+@media (max-width: 880px) {
+    .contact-banner .main-text p,
+    .contact-banner .secondary-text p {
+        font-size: var(--font-size-s);
+    }
+}
+
+@media (max-width: 620px) {
+    .contact-banner .main-text p,
+    .contact-banner .secondary-text p {
+        font-size: var(--font-size-xs);
+    }
+    .contact-banner {
+        padding: var(--size-unit-3);
+    }
+}
+
+@media (max-width: 520px) {
+    .contact-banner .main-text p,
+    .contact-banner .secondary-text p {
+        font-size: var(--font-size-3xs);
+    }
+}

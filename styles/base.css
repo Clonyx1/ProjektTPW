@@ -1,0 +1,55 @@
+:root {
+    /*Nastavení barev*/
+    --primary: #FFCC00;
+    --base: #f1f1f1;
+    --neutral: #000000;
+    /*Pro průhledná pozadí*/
+    --neutral-rgb: 0, 0, 0;
+    --accent: #374834;
+    --highlight: #FFD1AF;
+    --soft: #e4e4e4;
+    --important: rgb(233, 135, 135);
+
+    /*Stíny*/
+    --shadow-standard: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 8px 12px rgba(0, 0, 0, 0.2);
+    --shadow-big: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /*Velikosti písma*/
+    --font-size-3xl: 2.986rem;
+    --font-size-2xl: 2.488rem;
+    --font-size-xl: 2.074rem;
+    --font-size-l: 1.728rem;
+    --font-size-m: 1.44rem;
+    --font-size-s: 1.2rem;
+    --font-size-xs: 1rem;
+    --font-size-2xs: 0.833rem;
+    --font-size-3xs: 0.694rem;
+
+    /*Škála velikostí pro mezery, velikosti...*/
+    /*0px*/
+    --size-unit-0: 0;
+    /*4px*/
+    --size-unit-1: 0.25rem;
+    /*8px*/
+    --size-unit-2: 0.5rem;
+    /*12px*/
+    --size-unit-3: 0.75rem;
+    /*16px*/
+    --size-unit-4: 1rem;
+    /*24px*/
+    --size-unit-5: 1.5rem;
+    /*32px*/
+    --size-unit-6: 2rem;
+    /*48px*/
+    --size-unit-7: 3rem;
+}
+
+body {
+    background-color: var(--base);
+    font-family: 'Sansita';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+

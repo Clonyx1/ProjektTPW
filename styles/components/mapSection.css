@@ -1,0 +1,29 @@
+/*MAP SECTION styles*/
+.map-section-wrap{
+    width: 100%;
+}
+.map-section {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.map iframe {
+    border: 2px solid var(--accent);
+    width: 100%;
+    height: calc(var(--size-unit-7) * 15);
+}
+
+
+
+/*---------------------------------MEDIA QUERY--------------------------------*/
+@media (max-width: 880px) {
+    .map-section iframe {
+        height: calc(var(--size-unit-7) * 10);
+    }
+}
+
+@media (max-width: 520px) {
+    .map-section iframe {
+        height: calc(var(--size-unit-7) * 7);
+    }
+}

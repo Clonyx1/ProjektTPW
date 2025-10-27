@@ -1,0 +1,19 @@
+@import 'reset.css';
+@import 'base.css';
+@import 'layout.css';
+
+@import 'components/buttons.css';
+@import 'components/contactBanner.css';
+@import 'components/footer.css';
+@import 'components/header.css';
+@import 'components/headings.css';
+@import 'components/mapSection.css';
+@import 'components/navigation.css';
+@import 'components/popUpBanner.css';
+@import 'components/productCard.css';
+@import 'components/text.css';
+@import 'components/topBar.css';
+
+@import 'pages/contacts.css';
+@import 'pages/index.css';
+@import 'pages/productPage.css';

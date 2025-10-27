@@ -1,0 +1,40 @@
+/*Navigation styles*/
+.navigation a:hover {
+    color: var(--accent);
+    text-shadow: var(--shadow-standard);
+}
+.navigation {
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.navigation a {
+    color: var(--neutral);
+}
+
+.navigation ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 7%;
+}
+
+.navigation ul li {
+    font-size: var(--font-size-m);
+}
+
+
+
+/*---------------------------------MEDIA QUERY--------------------------------*/
+@media (max-width: 620px) {
+    .navigation a {
+        font-size: var(--font-size-xs);
+    }
+}
+

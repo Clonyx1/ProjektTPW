@@ -1,0 +1,55 @@
+/*Buttons*/
+.button-secondary a {
+    font-size: var(--font-size-l);
+    background-color: var(--soft);
+    padding: var(--size-unit-2) calc(var(--size-unit-7) * 2);
+    text-decoration: none;
+    color: var(--neutral);
+}
+
+.button-secondary a:hover {
+    filter: sepia(0.3);
+    box-shadow: var(--shadow-standard);
+}
+
+.button-highlight button {
+    text-align: center;
+    width: calc(var(--size-unit-7) * 5);
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    border: none;
+    background-color: var(--highlight);
+    height: var(--size-unit-7);
+}
+
+.button-highlight button:hover {
+    box-shadow: var(--shadow-standard);
+    filter: sepia(0.2);
+}
+
+
+
+/*---------------------------------MEDIA QUERY--------------------------------*/
+
+@media (max-width: 880px) {
+    .button-secondary a {
+        font-size: var(--font-size-s);
+        padding: var(--size-unit-2) var(--size-unit-7);
+    }
+
+}
+
+@media (max-width: 620px) {
+    .button-secondary a {
+        font-size: var(--font-size-xs);
+        padding: var(--size-unit-2) var(--size-unit-6);
+    }
+}
+
+@media (max-width: 520px) {
+    .button-secondary button {
+        font-size: var(--font-size-3xs);
+        width: calc((var(--size-unit-6) * 4));
+        height: var(--size-unit-6);
+    }
+}

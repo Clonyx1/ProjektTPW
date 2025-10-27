@@ -1,0 +1,50 @@
+/*Heading*/
+.heading-display h2,
+.heading-standard h2 {
+    display: inline-block;
+    /*Velikost podle textu*/
+    padding-bottom: calc(var(--size-unit-3) * 1.25);
+    background-size: 100% var(--size-unit-7);
+
+    background-image: url('../../obrazky/underscore.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-left: 2%;
+    margin-bottom: var(--size-unit-5);
+}
+
+.heading-display h2 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: var(--font-size-3xl);
+}
+
+.heading-standard h2 {
+    font-size: var(--font-size-l);
+    font-weight: bold;
+}
+
+
+
+/*---------------------------------MEDIA QUERY--------------------------------*/
+@media (max-width: 620px) {
+    .heading-display h2 {
+        font-size: var(--font-size-2xl);
+        margin-top: var(--size-unit-3);
+        background-image: url(../../obrazky/underscore-black.png);
+        margin-bottom: var(--size-unit-3);
+    }
+    .heading-standard h2 {
+        font-size: var(--font-size-m);
+    }
+}
+
+@media (max-width: 520px) {
+    .heading-standard h2 {
+        font-size: var(--font-size-s);
+    }
+
+    .heading-display h2 {
+        font-size: var(--font-size-l);
+    }
+}
