@@ -72,9 +72,6 @@ td {
     font-size: var(--font-size-s);
 }
 
-form .button-highlight button {
-    margin-left: var(--size-unit-2);
-}
 
 .contacts {
     display: flex;
@@ -86,9 +83,6 @@ form .button-highlight button {
 .contacts .heading-standard h2,
 .contacts .text-standard p {
     margin-left: 0;
-}
-.contacts .text-standard p{
-    margin-bottom: var(--size-unit-5);
 }
 .contacts ul {
     list-style: none;
@@ -166,7 +160,6 @@ form .button-highlight button {
 
     .contacts-mobile {
         display: grid;
-        margin-left: 2%;
     }
 }
 

@@ -9,7 +9,6 @@
     background-image: url('../../obrazky/underscore.png');
     background-repeat: no-repeat;
     background-position: bottom left;
-    margin-left: 2%;
     margin-bottom: var(--size-unit-5);
 }
 

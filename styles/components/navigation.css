@@ -4,7 +4,6 @@
     text-shadow: var(--shadow-standard);
 }
 .navigation {
-    margin-right: 2%;
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -18,8 +17,6 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 0;
-    margin: 0;
     list-style: none;
     justify-content: flex-end;
     gap: 7%;

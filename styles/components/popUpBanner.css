@@ -11,9 +11,7 @@
     right: 0;
     bottom: 0;
 }
-.pop-up-wrap div{
-    padding: var(--size-unit-3);
-}
+
 .pop-up-wrap.hide {
     display: none;
 }
@@ -35,7 +33,6 @@
 
 .pop-up .button-highlight button {
     float: right;
-    margin-right: 2%;
 }
 
 @media(max-width: 620px){

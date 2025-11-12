@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pekárna Lukáš</title>
+    <title>Pekárna Lukáš - Nabídka</title>
+    <link rel="icon" href="../obrazky/croissant_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="icon" href="obrazky/croissant_icon.ico" type="image/x-icon">
 
@@ -19,49 +20,49 @@
     <div class="site-container">
         <!--Vyskakovací okno-->
         <div class="pop-up-wrap">
-            <div class="pop-up">
-                <div class="heading-standard">
+            <div class="pop-up pd-3 mr-r-2p">
+                <div class="heading-standard mr-l-2p pd-3">
                     <h2>DŮLEŽITÉ</h2>
                 </div>
 
-                <div class="text-important">
+                <div class="text-important pd-3 mr-lr-2p">
                     <p>
                         Tato stránka vznikla jako studentský projekt. Nejedná se o reálné stránky pekárny.
                     </p>
                 </div>
-                <div class="button-highlight">
+                <div class="button-highlight pd-3 mr-r-2p">
                     <button id="closePopUp">Rozumím</button>
                 </div>
             </div>
         </div>
         <!--Odkazy na sociální sítě-->
         <div class="top-bar">
-            <div class="top-bar-links-container">
-                <div class="text-standard">
+            <div class="top-bar-links-container pd-r-2p">
+                <div class="text-standard mr-l-2p">
                     <p>Sledujte nás na sociálních sítích!</p>
                 </div>
-                <a href="https://www.facebook.com/" aria-label="facebook">
+                <a href="https://www.facebook.com/" class="mr-l-4" aria-label="facebook">
                     <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                         <path
                             d="M80 299.3l0 212.7 116 0 0-212.7 86.5 0 18-97.8-104.5 0 0-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4 .4 37 1.2l0-88.7C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4l0 42.1-66 0 0 97.8 66 0z" />
                     </svg>
                 </a>
-                <a href="https://www.youtube.com/" aria-label="youtube">
+                <a href="https://www.youtube.com/" class="mr-l-4" aria-label="youtube">
                     <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                         <path
                             d="M549.7 124.1C543.5 100.4 524.9 81.8 501.4 75.5 458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5C51.2 81.8 32.7 100.4 26.4 124.1 15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8 42.6 11.5 213.4 11.5 213.4 11.5s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6l0-162.4 142.7 81.2-142.7 81.2z" />
                     </svg>
                 </a>
-                <a href="https://www.instagram.com/" aria-label="instagram">
+                <a href="https://www.instagram.com/" class="mr-l-4" aria-label="instagram">
                     <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                         <path
                             d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
                     </svg>
                 </a>
-                <a href="https://x.com/" aria-label="X">
+                <a href="https://x.com/" class="mr-l-4" aria-label="X">
                     <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                         <path
@@ -75,7 +76,7 @@
             <!--Navigace stránky-->
             <nav class="site-navigation">
                 <div class="navigation-logo">
-                    <h1 class="main-logo">
+                    <h1 class="main-logo mr-l-2p">
                         <a href="../index.html" aria-label="Domů">
                             Pekárna
                             <br>
@@ -83,8 +84,8 @@
                         </a>
                     </h1>
                 </div>
-                <nav class="navigation">
-                    <ul>
+                <nav class="navigation mr-r-2p">
+                    <ul class="mr-0 pd-0">
                         <li>
                             <a href="nabidka.html">Nabídka produktů</a>
                         </li>
@@ -118,11 +119,11 @@
             <section class="product-section-wrap">
                 <div class="product-section-grid">
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/rohlik.jpg" alt="Rohlík sypaný makem">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Rohlík obyčejný</h3>
                         </div>
                         <div class="product-card-price">
@@ -130,11 +131,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/rohlik-sypany.jpg" alt="Rohlík sypaný semeny">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Rohlík sypaný</h3>
                         </div>
                         <div class="product-card-price">
@@ -142,11 +143,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/bageta.jpg" alt="Bageta">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Bageta</h3>
                         </div>
                         <div class="product-card-price">
@@ -154,11 +155,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/bageta-plnena.jpg" alt="Plněná bageta">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Plněná bageta</h3>
                         </div>
                         <div class="product-card-price">
@@ -166,11 +167,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/rye-bread.jpg" alt="Chleba žitný">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Chleba žitný</h3>
                         </div>
                         <div class="product-card-price">
@@ -178,11 +179,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/bread.jpg" alt="Chleba">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Chleba</h3>
                         </div>
                         <div class="prodcut-card-price">
@@ -190,11 +191,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/croissant.jpg" alt="Čokoládový croissant">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Croissant</h3>
                         </div>
                         <div class="product-card-price">
@@ -202,11 +203,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/koblihy.jpg" alt="Koblihy">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Kobliha</h3>
                         </div>
                         <div class="product-card-price">
@@ -214,11 +215,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/donuty.jpg" alt="Donut">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Donut</h3>
                         </div>
                         <div class="product-card-price">
@@ -226,11 +227,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/macaroons.jpg" alt="Makronka">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Makronka</h3>
                         </div>
                         <div class="product-card-price">
@@ -238,11 +239,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/cinamon-roll.jpg" alt="Skořicový šnek">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Skořicový šnek</h3>
                         </div>
                         <div class="prodcut-card-price">
@@ -250,11 +251,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/muffins.jpg" alt="Muffiny">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Muffin</h3>
                         </div>
                         <div class="product-card-price">
@@ -262,11 +263,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/vetrnik.jpg" alt="Větrník sladký">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Větrník</h3>
                         </div>
                         <div class="product-card-price">
@@ -274,11 +275,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/sladka-rolada.jpg" alt="Roláda s čokoládovou polevou">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Roláda s náplní</h3>
                         </div>
                         <div class="product-card-price">
@@ -286,11 +287,11 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
                             <img src="../obrazky/cookies.jpg" alt="Sušenky">
                         </div>
-                        <div class="product-card-heading">
+                        <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Sušenky</h3>
                         </div>
                         <div class="product-card-price">
@@ -302,7 +303,7 @@
             </section>
             <!--Banner s odkazem na stránku s kontakty-->
             <section class="contact-banner-wrap">
-                <div class="contact-banner">
+                <div class="contact-banner mr-lr-2p">
                     <div class="main-text">
                         <p>
                             Nenašli jste to,<br>
@@ -324,17 +325,17 @@
 
         <footer>
             <div class="footer-top">
-                <div class="footer-copyright">
+                <div class="footer-copyright mr-l-2">
                     <p>&copy 2025 Pekárna Lukáš</p>
                 </div>
-                <nav class="navigation">
-                    <ul>
+                <nav class="navigation mr-r-2p">
+                    <ul class="pd-0 mr-0">
                         <li><a href="../index.html">Hlavní stránka</a></li>
                         <li><a href="kontakty.html">Kontakty</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="footer-bottom">
+            <div class="footer-bottom pd-0 mr-0">
                 <div class="text-important">
                     <p>Tato stránka vznikla jako studentský projekt. Nejedná se o reálné stránky pekárny.</p>
                 </div>

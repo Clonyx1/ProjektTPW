@@ -2,10 +2,6 @@
 .map-section-wrap{
     width: 100%;
 }
-.map-section {
-    margin-left: 2%;
-    margin-right: 2%;
-}
 
 .map iframe {
     border: 2px solid var(--accent);

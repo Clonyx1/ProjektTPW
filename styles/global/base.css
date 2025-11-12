@@ -1,20 +1,21 @@
 :root {
-    /*Nastavení barev*/
+    /*Colors*/
     --primary: #FFCC00;
     --base: #f1f1f1;
     --neutral: #000000;
-    /*Pro průhledná pozadí*/
+    /*For see-through elements*/
     --neutral-rgb: 0, 0, 0;
     --accent: #374834;
     --highlight: #FFD1AF;
     --soft: #e4e4e4;
     --important: rgb(233, 135, 135);
 
-    /*Stíny*/
+    /*Shadows*/
     --shadow-standard: 0 4px 8px rgba(0, 0, 0, 0.1);
     --shadow-medium: 0 8px 12px rgba(0, 0, 0, 0.2);
     --shadow-big: 0 8px 16px rgba(0, 0, 0, 0.3);
-    /*Velikosti písma*/
+
+    /*Font sizes*/
     --font-size-3xl: 2.986rem;
     --font-size-2xl: 2.488rem;
     --font-size-xl: 2.074rem;
@@ -25,7 +26,7 @@
     --font-size-2xs: 0.833rem;
     --font-size-3xs: 0.694rem;
 
-    /*Škála velikostí pro mezery, velikosti...*/
+    /*Size scale*/
     /*0px*/
     --size-unit-0: 0;
     /*4px*/
@@ -42,11 +43,14 @@
     --size-unit-6: 2rem;
     /*48px*/
     --size-unit-7: 3rem;
+
+    /*Fonts*/
+    --font-family-primary: 'Sansita', sans-serif;
 }
 
 body {
     background-color: var(--base);
-    font-family: 'Sansita';
+    font-family: var(--font-family-primary);
     font-size: 16px;
     margin: 0;
     padding: 0;

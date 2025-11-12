@@ -19,15 +19,12 @@ footer {
 }
 
 .footer-bottom {
-    padding: 0;
-    margin: 0;
     background-color: var(--important);
     text-align: center;
     width: 100%;
 }
 
 .footer-copyright {
-    margin-left: 2%;
     font-size: var(--font-size-m);
 }
 
