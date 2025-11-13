@@ -1,6 +1,6 @@
 /*Header styles*/
 .site-header {
-    height: calc(var(--size-unit-2) * 12);
+    height: calc(var(--size-unit-2) * 10);
     max-width: calc(var(--size-unit-7)*30);
     border-bottom: 2px solid var(--neutral);
 }
@@ -30,6 +30,7 @@
 }
 
 #mobile-menu-button{
+    background-color: var(--base);
     display: none;
     border: none;
     cursor: pointer;

@@ -5,7 +5,7 @@
     background-color: var(--base);
     position: fixed;
     z-index: 100;
-    top: calc(var(--size-unit-7) + var(--size-unit-2) * 12.2);
+    top: calc(var(--size-unit-7) + var(--size-unit-2) * 10.2);
     left: 0;
     right: 0;
     bottom: 0;
