@@ -1,0 +1,32 @@
+.primary-link {
+    color: var(--neutral);
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+.primary-link::after, .secondary-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: calc(-1 * var(--size-unit-1));
+    width: 0%;
+    height: var(--size-unit-1);
+    background-color: var(--primary);
+    /* žlutá */
+    transition: width 0.3s ease;
+}
+.secondary-link::after{
+  height: calc(var(--size-unit-1) * 0.5);
+}
+
+.primary-link:hover::after, .secondary-link:hover::after {
+  width: 100%;
+}
+
+.secondary-link{
+  color: var(--neutral);
+  font-size: var(--font-size-s);
+  text-decoration: none;
+  position: relative;
+}

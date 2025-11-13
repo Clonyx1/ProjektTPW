@@ -14,7 +14,11 @@
 @import 'components/productCard.css';
 @import 'components/text.css';
 @import 'components/topBar.css';
+@import 'components/openPositionCard.css';
+@import 'components/mobileMenu.css';
+@import 'components/links.css';
 
 @import 'pages/contacts.css';
 @import 'pages/index.css';
 @import 'pages/productPage.css';
+@import 'pages/career.css';

@@ -1,0 +1,7 @@
+/*Open position card styles*/
+.open-position-card{
+    max-width: calc(var(--size-unit-7) * 30);
+    background-color: var(--soft);
+    display: flex;
+    flex-direction: column;
+}

@@ -14,10 +14,6 @@
 
 
 /*---------------------------------MEDIA QUERY--------------------------------*/
-@media (max-width: 620px) {
-    .text-important p {
-        font-size: var(--font-size-2xs);
-    }
-}
+
 
 

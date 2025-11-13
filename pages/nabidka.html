@@ -87,16 +87,43 @@
                 <nav class="navigation mr-r-2p">
                     <ul class="mr-0 pd-0">
                         <li>
-                            <a href="nabidka.html">Nabídka produktů</a>
+                            <a class="primary-link" href="nabidka.html">Nabídka produktů</a>
                         </li>
                         <li>
-                            <a href="kontakty.html">Kontakt</a>
+                            <a class="primary-link" href="kariera.html">Kariéra</a>
+                        </li>
+                        <li>
+                            <a class="primary-link" href="kontakty.html">Kontakt</a>
                         </li>
                     </ul>
+                    <div class="mobile-menu-button-wrap">
+                        <button id="mobile-menu-button">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                            </svg>
+                        </button>
+                    </div>
                 </nav>
             </nav>
         </header>
-
+         <!--Pop-up modal with site menu-->
+        <div id="mobile-menu">
+            <nav class="mobile-navigation">
+                <ul class="mr-0 pd-0">
+                    <li class="mr-b-4">
+                        <a class="primary-link" href="nabidka.html">Nabídka produktů</a>
+                    </li>
+                    <li class="mr-b-4">
+                        <a class="primary-link" href="kariera.html">Kariéra</a>
+                    </li>
+                    <li class="mr-b-4">
+                        <a class="primary-link" href="kontakty.html">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <main class="site-content">
             <!--Search section-->
             <section class="search-section">
@@ -126,6 +153,12 @@
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Rohlík obyčejný</h3>
                         </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Klasika, která nikdy nezklame. Nadýchaný, křehký a čerstvě upečený – ideální ke snídani,
+                                polévce i jen tak s máslem.
+                            </p>
+                        </div>
                         <div class="product-card-price">
                             <p>4 Kč,-</p>
                         </div>
@@ -137,6 +170,12 @@
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Rohlík sypaný</h3>
+                        </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Zlatavý rohlík sypaný mákem nebo solí pro výraznější chuť. Křupavý na povrchu, jemný
+                                uvnitř – prostě poctivé pečivo každý den.
+                            </p>
                         </div>
                         <div class="product-card-price">
                             <p>5 Kč,-</p>
@@ -150,6 +189,12 @@
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Bageta</h3>
                         </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Dlouhá, křupavá a voňavá – naše bageta je perfektní základ pro sendviče nebo jako
+                                příloha k salátu či polévce.
+                            </p>
+                        </div>
                         <div class="product-card-price">
                             <p>15 Kč,-</p>
                         </div>
@@ -161,6 +206,13 @@
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Plněná bageta</h3>
+                        </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Křupavá bageta z naší pekárny.
+                                Ideální na oběd nebo svačinu – v kuřecí, šunkové či vegetariánské variantě. Chuť, která
+                                zasytí i potěší.
+                            </p>
                         </div>
                         <div class="product-card-price">
                             <p>42 Kč,-</p>
@@ -174,6 +226,12 @@
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Chleba žitný</h3>
                         </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Tmavý, vláčný a výrazně aromatický. Žitný chléb s dlouhou trvanlivostí a bohatou chutí,
+                                jak má být.
+                            </p>
+                        </div>
                         <div class="product-card-price">
                             <p>57 Kč,-</p>
                         </div>
@@ -186,7 +244,13 @@
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Chleba</h3>
                         </div>
-                        <div class="prodcut-card-price">
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Poctivý domácí chléb s křupavou kůrkou a měkkou střídou. Pečený s láskou z kvalitní
+                                mouky a tradičního kvásku.
+                            </p>
+                        </div>
+                        <div class="product-card-price">
                             <p>50 Kč,-</p>
                         </div>
                     </div>
@@ -197,6 +261,11 @@
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Croissant</h3>
+                        </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Máslový, nadýchaný a dokonale vrstvený. Skvělý ke kávě, snídani nebo jen tak pro radost.
+                            </p>
                         </div>
                         <div class="product-card-price">
                             <p>22 Kč,-</p>
@@ -210,6 +279,12 @@
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Kobliha</h3>
                         </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Lehounká a nadýchaná kobliha plněná sladkou marmeládou. Tradiční chuť, která potěší
+                                každého.
+                            </p>
+                        </div>
                         <div class="product-card-price">
                             <p>19 Kč,-</p>
                         </div>
@@ -221,6 +296,12 @@
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Donut</h3>
+                        </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Barevný, hravý a sladký – měkký donut s cukrovou nebo čokoládovou polevou. Malá radost k
+                                zakousnutí.
+                            </p>
                         </div>
                         <div class="product-card-price">
                             <p>16 Kč,-</p>
@@ -234,6 +315,12 @@
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Makronka</h3>
                         </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Jemná francouzská delikatesa s křehkou krustou a lahodným krémem. Sladké pokušení v
+                                každém soustu.
+                            </p>
+                        </div>
                         <div class="product-card-price">
                             <p>8 Kč,-</p>
                         </div>
@@ -246,7 +333,13 @@
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Skořicový šnek</h3>
                         </div>
-                        <div class="prodcut-card-price">
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Voňavé kynuté těsto s náplní z másla, skořice a cukru. Sladká klasika, která zahřeje i
+                                potěší.
+                            </p>
+                        </div>
+                        <div class="product-card-price">
                             <p>23 Kč,-</p>
                         </div>
                     </div>
@@ -257,6 +350,12 @@
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Muffin</h3>
+                        </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Nadýchaný moučník plný chuti – čokoládový, borůvkový či vanilkový. Ideální ke kávě nebo
+                                na cesty.
+                            </p>
                         </div>
                         <div class="product-card-price">
                             <p>18 Kč,-</p>
@@ -270,6 +369,12 @@
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Větrník</h3>
                         </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Karamelový dezert z odpalovaného těsta, plněný lahodným krémem. Lehký, sladký a
+                                neodolatelný.
+                            </p>
+                        </div>
                         <div class="product-card-price">
                             <p>25 Kč,-</p>
                         </div>
@@ -282,6 +387,11 @@
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Roláda s náplní</h3>
                         </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Nadýchaný piškot zarolovaný s jemnou náplní. Klasický moučník, který nikdy neomrzí.
+                            </p>
+                        </div>
                         <div class="product-card-price">
                             <p>40 Kč,-</p>
                         </div>
@@ -293,6 +403,11 @@
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Sušenky</h3>
+                        </div>
+                        <div class="product-card-text mr-b-3">
+                            <p>
+                                Křehké, máslové a voňavé. Ideální malá sladkost k čaji, kávě nebo jen tak na zub.
+                            </p>
                         </div>
                         <div class="product-card-price">
                             <p>22 Kč,-</p>
@@ -330,8 +445,10 @@
                 </div>
                 <nav class="navigation mr-r-2p">
                     <ul class="pd-0 mr-0">
-                        <li><a href="../index.html">Hlavní stránka</a></li>
-                        <li><a href="kontakty.html">Kontakty</a></li>
+                        <li><a class="secondary-link" href="../index.html">Hlavní stránka</a></li>
+                        <li><a class="secondary-link" href="nabidka.html">Nabídka produktů</a></li>
+                        <li><a class="secondary-link" href="kariera.html">Kariéra</a></li>
+                        <li><a class="secondary-link" href="kontakty.html">Kontakt</a></li>
                     </ul>
                 </nav>
             </div>
@@ -342,7 +459,9 @@
             </div>
         </footer>
     </div>
-    <script src="../script.js"></script>
+    <script src="../javascript/pages/productsJS.js"></script>
+    <script src="../javascript/components/header.js"></script>
+    <script src="../javascript/components/popUpBanner.js"></script>
 </body>
 
 </html>

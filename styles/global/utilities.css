@@ -11,6 +11,19 @@
     padding: var(--size-unit-3);
 }
 
+.pd-4 {
+    padding: var(--size-unit-4);
+}
+
+.pd-5 {
+    padding: var(--size-unit-5);
+}
+.pd-6{
+    padding: var(--size-unit-6);
+}
+.pd-7{
+    padding: var(--size-unit-7);
+}
 .pd-t-3 {
     padding-top: var(--size-unit-3);
 }
@@ -19,9 +32,10 @@
     padding-bottom: var(--size-unit-3);
 }
 
-.pd-r-2p{
+.pd-r-2p {
     margin-right: 2%;
 }
+
 /*Margin*/
 .mr-0 {
     margin: var(--size-unit-0);
@@ -34,13 +48,21 @@
 .mr-l-2 {
     margin-left: var(--size-unit-2);
 }
-.mr-l-4{
+
+.mr-l-4 {
     margin-left: var(--size-unit-4);
 }
+
 .mr-t-4 {
     margin-top: var(--size-unit-4);
 }
-
+.mr-tb-2{
+    margin-top: var(--size-unit-2);
+    margin-bottom: var(--size-unit-2);
+}
+.mr-b-3{
+    margin-bottom: var(--size-unit-3);
+}
 .mr-b-4 {
     margin-bottom: var(--size-unit-4);
 }

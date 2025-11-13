@@ -1,6 +1,6 @@
 /*Header styles*/
 .site-header {
-    height: calc(var(--size-unit-2) * 15);
+    height: calc(var(--size-unit-2) * 12);
     max-width: calc(var(--size-unit-7)*30);
     border-bottom: 2px solid var(--neutral);
 }
@@ -29,20 +29,20 @@
     color: var(--neutral);
 }
 
-.main-logo a:hover {
-    color: var(--accent);
-    text-shadow: var(--shadow-big);
+#mobile-menu-button{
+    display: none;
+    border: none;
+    cursor: pointer;
+    width: var(--size-unit-7);
 }
 
-
-
 /*---------------------------------MEDIA QUERY--------------------------------*/
-
-@media (max-width: 620px) {
-    .site-header {
-        height: calc(var(--size-unit-6) * 3);
+@media (max-width: 800px){
+    #mobile-menu-button{
+        display: block;
     }
-
+}
+@media (max-width: 620px) {
     .main-logo a {
         font-size: var(--font-size-l);
     }

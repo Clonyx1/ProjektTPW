@@ -1,0 +1,22 @@
+/*----------------------------CAREER PAGE---------------------------------*/
+.working-with-us-wrap{
+    background-image: url(../../obrazky/career-page-hero.png);
+    max-width: calc(var(--size-unit-7)*30);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(var(--size-unit-7) * 9);
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.working-with-us-text{
+    flex: 1;
+}
+.working-with-us-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+

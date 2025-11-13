@@ -87,15 +87,43 @@
                 <nav class="navigation mr-r-2p">
                     <ul class="mr-0 pd-0">
                         <li>
-                            <a href="nabidka.html">Nabídka produktů</a>
+                            <a class="primary-link" href="nabidka.html">Nabídka produktů</a>
                         </li>
                         <li>
-                            <a href="kontakty.html">Kontakt</a>
+                            <a class="primary-link" href="kariera.html">Kariéra</a>
+                        </li>
+                        <li>
+                            <a class="primary-link" href="kontakty.html">Kontakt</a>
                         </li>
                     </ul>
+                    <div class="mobile-menu-button-wrap">
+                        <button id="mobile-menu-button">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                            </svg>
+                        </button>
+                    </div>
                 </nav>
             </nav>
         </header>
+         <!--Pop-up modal with site menu-->
+        <div id="mobile-menu">
+            <nav class="mobile-navigation">
+                <ul class="mr-0 pd-0">
+                    <li class="mr-b-4">
+                        <a class="primary-link" href="nabidka.html">Nabídka produktů</a>
+                    </li>
+                    <li class="mr-b-4">
+                        <a class="primary-link" href="kariera.html">Kariéra</a>
+                    </li>
+                    <li class="mr-b-4">
+                        <a class="primary-link" href="kontakty.html">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <main class="site-content">
             <section class="contact-section-wrap">
                 <div class="contact-section-grid">
@@ -104,7 +132,7 @@
                         <div class="heading-standard mr-l-2p">
                             <h2>Informace o rozvozu jídla</h2>
                         </div>
-                        <div class="text-standard">
+                        <div class="text-standard mr-lr-2p">
                             <table class="delivery-info-table">
                                 <tr>
                                     <th>
@@ -157,7 +185,7 @@
                             </table>
                             <br>
                             <!--Tabulka s krabicemi-->
-                            <div class="text-standard mr-l-2p">
+                            <div class="text-standard">
                                 <p>Krabice na pečivo malá 10Kč,-</p>
                                 <p>Krabice na pečivo velká 15Kč,-</p>
                                 <p>ROZVOZ NAD 600 Kč <strong>ZDARMA!</strong></p>
@@ -166,22 +194,25 @@
                         </div>
                         <div class="text-important mr-l-2p">
                             <p>
-                                <strong>HODNOTA OBJEDNÁVKY PRO ROZVOZ MUSÍ BÝT ALESPOŇ 300 Kč</strong>
+                                <strong>HODNOTA OBJEDNÁVKY PRO ROZVOZ MUSÍ BÝT ALESPOŇ 300Kč,-</strong>
                             </p>
                         </div>
                     </div>
                     <!--Kontaktní formulář-->
-                    <div class="contact-form-wrap">
-                        <div class="heading-standard mr-l-2p">
+                    <div class="contact-form-wrap mr-l-2p">
+                        <div class="heading-standard">
                             <h2>Kontaktujte nás</h2>
                         </div>
                         <div class="contact-form">
                             <form>
-                                <input type="text" id="name" name="name" placeholder="Jméno a příjmení">
-                                <input type="email" id="email" name="email" placeholder="Email"><br>
-                                <textarea name="text" id="text" placeholder="Text Vaší zprávy"></textarea> <br>
+                                <input class="pd-3 mr-tb-2" type="text" id="name" name="name"
+                                    placeholder="Jméno a příjmení">
+                                <input class="pd-3 mr-tb-2" type="email" id="email" name="email"
+                                    placeholder="Email"><br>
+                                <textarea class="mr-tb-2" name="text" id="text"
+                                    placeholder="Text Vaší zprávy"></textarea> <br>
                                 <div class="button-highlight">
-                                    <button class="mr-l-2" type="submit" id="send" name="send">ODESLAT</button>
+                                    <button type="submit" id="send" name="send">ODESLAT</button>
                                 </div>
                             </form>
                         </div>
@@ -200,7 +231,7 @@
                             <h2>EMAIL</h2>
                         </div>
                         <div class="text-standard mr-b-4">
-                            <p>perkarna.lukas@uhk.cz</p>
+                            <p>pekarna.lukas@uhk.cz</p>
                         </div>
 
                         <div class="heading-standard">
@@ -242,7 +273,7 @@
                             </ul>
                         </div>
                     </article>
-
+                    <!--Contact section on mobile-->
                     <div class="contacts-mobile mr-l-2p">
 
                         <div class="contact-item">
@@ -270,8 +301,12 @@
                             </div>
                             <div class="text-standard mr-b-4">
                                 <ul>
-                                    <li>Po - Pá: 6:30 - 18:30</li>
-                                    <li>So - Ne: ZAVŘENO</li>
+                                    <li>
+                                        <p>Po - Pá: 6:30 - 18:30</p>
+                                    </li>
+                                    <li>
+                                        <p>So - Ne: ZAVŘENO</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -291,9 +326,15 @@
                             </div>
                             <div class="text-standard mr-b-4">
                                 <ul>
-                                    <li>Pekárna Lukáš s.r.o</li>
-                                    <li>IČO: 123 45 678</li>
-                                    <li>DIČ: CZ 012 34 567</li>
+                                    <li>
+                                        <p>Pekárna Lukáš s.r.o</p>
+                                    </li>
+                                    <li>
+                                        <p>IČO: 123 45 678</p>
+                                    </li>
+                                    <li>
+                                        <p>DIČ: CZ 012 34 567</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -304,9 +345,15 @@
                             </div>
                             <div class="text-standard mr-b-4">
                                 <ul>
-                                    <li>Hradecká 1249/6,</li>
-                                    <li>500 03</li>
-                                    <li>Hradec Králové 3</li>
+                                    <li>
+                                        <p>Hradecká 1249/6,</p>
+                                    </li>
+                                    <li>
+                                        <p>500 03</p>
+                                    </li>
+                                    <li>
+                                        <p>Hradec Králové 3</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -335,8 +382,10 @@
                 </div>
                 <nav class="navigation mr-r-2p">
                     <ul class="pd-0 mr-0">
-                        <li><a href="../index.html">Hlavní stránka</a></li>
-                        <li><a href="nabidka.html">Nabídka produktů</a></li>
+                        <li><a class="secondary-link" href="../index.html">Hlavní stránka</a></li>
+                        <li><a class="secondary-link" href="nabidka.html">Nabídka produktů</a></li>
+                        <li><a class="secondary-link" href="kariera.html">Kariéra</a></li>
+                        <li><a class="secondary-link" href="kontakty.html">Kontakt</a></li>
                     </ul>
                 </nav>
             </div>
@@ -347,7 +396,8 @@
             </div>
         </footer>
     </div>
-    <script src="../script.js"></script>
+    <script src="../javascript/components/header.js"></script>
+    <script src="../javascript/components/popUpBanner.js"></script>
 </body>
 
 </html>

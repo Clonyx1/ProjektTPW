@@ -1,16 +1,8 @@
 /*Navigation styles*/
-.navigation a:hover {
-    color: var(--accent);
-    text-shadow: var(--shadow-standard);
-}
 .navigation {
     display: flex;
     flex-direction: row;
     flex: 1;
-}
-
-.navigation a {
-    color: var(--neutral);
 }
 
 .navigation ul {
@@ -29,9 +21,18 @@
 
 
 /*---------------------------------MEDIA QUERY--------------------------------*/
+@media (max-width: 800px) {
+    .navigation {
+        justify-content: flex-end;
+    }
+
+    .site-header .navigation ul {
+        display: none;
+    }
+}
+
 @media (max-width: 620px) {
     .navigation a {
         font-size: var(--font-size-xs);
     }
 }
-
