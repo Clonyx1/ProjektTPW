@@ -62,6 +62,10 @@
     margin-left: var(--size-unit-2);
 }
 
+.mr-l-3{
+    margin-left: var(--size-unit-3);
+}
+
 .mr-l-4 {
     margin-left: var(--size-unit-4);
 }
@@ -102,4 +106,20 @@
 
 .mr-r-2{
     margin-right: var(--size-unit-2);
+}
+
+.mr-r-3{
+    margin-right: var(--size-unit-3);
+}
+
+.mr-r-4{
+    margin-right: var(--size-unit-4);
+}
+
+.mr-r-5{
+    margin-right: var(--size-unit-5);
+}
+
+.mr-r-6{
+    margin-right: var(--size-unit-6);
 }

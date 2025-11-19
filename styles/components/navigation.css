@@ -3,15 +3,24 @@
     display: flex;
     flex-direction: row;
     flex: 1;
+    justify-content: flex-end;
+}
+
+.navigation-menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .navigation ul {
-    width: 100%;
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: flex-end;
-    gap: 7%;
+    gap: var(--size-unit-6);
+    flex-wrap: nowrap;
 }
 
 .navigation ul li {
