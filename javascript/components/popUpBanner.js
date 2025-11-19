@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             popUpWrap.classList.add('hidden');
         }
     } else {
-        if (popUpWrap && popUpWrap.classList.contains('hide')) {
+        if (popUpWrap && popUpWrap.classList.contains('hidden')) {
              popUpWrap.classList.remove('hidden');
         }
     }

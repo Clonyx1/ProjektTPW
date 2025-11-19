@@ -27,7 +27,7 @@
 .delivery-info-table th,
 td {
     border: 1px solid var(--neutral);
-    
+
 }
 
 .contact-form-wrap {
@@ -95,9 +95,11 @@ td {
     grid-template-rows: auto;
     gap: var(--size-unit-2);
 }
-.contacts-mobile .text-standard p{
+
+.contacts-mobile .text-standard p {
     font-size: var(--font-size-s);
 }
+
 .contact-item {
     display: flex;
     flex-direction: column;
@@ -146,7 +148,11 @@ td {
     }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 630px) {
+    .contacts-mobile .heading-standard h2 {
+        font-size: var(--font-size-m);
+    }
+
     .delivery-info-table {
         width: 98%;
     }

@@ -7,7 +7,6 @@
     <title>Pekárna Lukáš - Nabídka</title>
     <link rel="icon" href="../obrazky/croissant_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/main.css">
-    <link rel="icon" href="obrazky/croissant_icon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +18,7 @@
 <body>
     <div class="site-container">
         <!--Vyskakovací okno-->
-        <div class="pop-up-wrap">
+        <div class="pop-up-wrap hidden">
             <div class="pop-up pd-3 mr-r-2p">
                 <div class="heading-standard mr-l-2p pd-3">
                     <h2>DŮLEŽITÉ</h2>
@@ -119,7 +118,7 @@
             </nav>
         </header>
          <!--Pop-up modal with site menu-->
-        <div id="mobile-menu">
+        <div id="mobile-menu" class="hidden">
             <nav class="mobile-navigation">
                 <ul class="mr-0 pd-0">
                     <li class="mr-b-4">
@@ -153,20 +152,19 @@
                 </div>
             </section>
             <!--Products showcase section-->
-            <section class="product-section-wrap">
+            <section class="product-section-wrap mr-lr-2p">
                 <div class="product-section-grid">
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/rohlik.jpg" alt="Rohlík sypaný makem">
+                            <img loading="lazy" src="../obrazky/rohlik.jpg" alt="Rohlík sypaný makem">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Rohlík obyčejný</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Klasika, která nikdy nezklame. Nadýchaný, křehký a čerstvě upečený – ideální ke snídani,
-                                polévce i jen tak s máslem.
+                                Klasika, která nikdy nezklame. Nadýchaný, křehký a čerstvě upečený.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -176,15 +174,15 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/rohlik-sypany.jpg" alt="Rohlík sypaný semeny">
+                            <img loading="lazy" src="../obrazky/rohlik-sypany.jpg" alt="Rohlík sypaný semeny">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Rohlík sypaný</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Zlatavý rohlík sypaný mákem nebo solí pro výraznější chuť. Křupavý na povrchu, jemný
-                                uvnitř – prostě poctivé pečivo každý den.
+                                Rohlík sypaný mákem nebo solí pro výraznější chuť. Křupavý na povrchu, jemný
+                                uvnitř.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -194,15 +192,15 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/bageta.jpg" alt="Bageta">
+                            <img loading="lazy" src="../obrazky/bageta.jpg" alt="Bageta">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Bageta</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Dlouhá, křupavá a voňavá – naše bageta je perfektní základ pro sendviče nebo jako
-                                příloha k salátu či polévce.
+                                Křupavá a voňavá – naše bageta je perfektní základ pro sendviče nebo jako
+                                příloha.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -212,16 +210,15 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/bageta-plnena.jpg" alt="Plněná bageta">
+                            <img loading="lazy" src="../obrazky/bageta-plnena.jpg" alt="Plněná bageta">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Plněná bageta</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Křupavá bageta z naší pekárny.
-                                Ideální na oběd nebo svačinu – v kuřecí, šunkové či vegetariánské variantě. Chuť, která
-                                zasytí i potěší.
+                                Křupavá bageta, 
+                                ideální na oběd či svačinu – v kuřecí, šunkové či vegetariánské variantě.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -231,7 +228,7 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/rye-bread.jpg" alt="Chleba žitný">
+                            <img loading="lazy" src="../obrazky/rye-bread.jpg" alt="Chleba žitný">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Chleba žitný</h3>
@@ -249,15 +246,15 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/bread.jpg" alt="Chleba">
+                            <img loading="lazy" src="../obrazky/bread.jpg" alt="Chleba">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Chleba</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Poctivý domácí chléb s křupavou kůrkou a měkkou střídou. Pečený s láskou z kvalitní
-                                mouky a tradičního kvásku.
+                                Domácí chléb s křupavou kůrkou a měkkou střídou. Pečený s láskou z kvalitní
+                                mouky.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -267,7 +264,7 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/croissant.jpg" alt="Čokoládový croissant">
+                            <img loading="lazy" src="../obrazky/croissant.jpg" alt="Čokoládový croissant">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Croissant</h3>
@@ -284,15 +281,14 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/koblihy.jpg" alt="Koblihy">
+                            <img loading="lazy" src="../obrazky/koblihy.jpg" alt="Koblihy">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Kobliha</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Lehounká a nadýchaná kobliha plněná sladkou marmeládou. Tradiční chuť, která potěší
-                                každého.
+                                Lehounká a nadýchaná kobliha plněná sladkou marmeládou.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -302,15 +298,14 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/donuty.jpg" alt="Donut">
+                            <img loading="lazy" src="../obrazky/donuty.jpg" alt="Donut">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Donut</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Barevný, hravý a sladký – měkký donut s cukrovou nebo čokoládovou polevou. Malá radost k
-                                zakousnutí.
+                                Barevný, hravý a sladký – měkký donut s cukrovou nebo čokoládovou polevou.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -320,15 +315,14 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/macaroons.jpg" alt="Makronka">
+                            <img loading="lazy" src="../obrazky/macaroons.jpg" alt="Makronka">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Makronka</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Jemná francouzská delikatesa s křehkou krustou a lahodným krémem. Sladké pokušení v
-                                každém soustu.
+                                Jemná francouzská delikatesa s křehkou krustou a lahodným krémem.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -338,7 +332,7 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/cinamon-roll.jpg" alt="Skořicový šnek">
+                            <img loading="lazy" src="../obrazky/cinamon-roll.jpg" alt="Skořicový šnek">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Skořicový šnek</h3>
@@ -356,15 +350,14 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/muffins.jpg" alt="Muffiny">
+                            <img loading="lazy" src="../obrazky/muffins.jpg" alt="Muffiny">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Muffin</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Nadýchaný moučník plný chuti – čokoládový, borůvkový či vanilkový. Ideální ke kávě nebo
-                                na cesty.
+                                Nadýchaný moučník plný chuti – čokoládový, borůvkový či vanilkový.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -374,15 +367,14 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/vetrnik.jpg" alt="Větrník sladký">
+                            <img loading="lazy" src="../obrazky/vetrnik.jpg" alt="Větrník sladký">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Větrník</h3>
                         </div>
                         <div class="product-card-text mr-b-3">
                             <p>
-                                Karamelový dezert z odpalovaného těsta, plněný lahodným krémem. Lehký, sladký a
-                                neodolatelný.
+                                Karamelový dezert z odpalovaného těsta, plněný lahodným krémem.
                             </p>
                         </div>
                         <div class="product-card-price">
@@ -392,7 +384,7 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/sladka-rolada.jpg" alt="Roláda s čokoládovou polevou">
+                            <img loading="lazy" src="../obrazky/sladka-rolada.jpg" alt="Roláda s čokoládovou polevou">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Roláda s náplní</h3>
@@ -409,7 +401,7 @@
 
                     <div class="product-card mr-2 pd-2">
                         <div class="product-card-img">
-                            <img src="../obrazky/cookies.jpg" alt="Sušenky">
+                            <img loading="lazy" src="../obrazky/cookies.jpg" alt="Sušenky">
                         </div>
                         <div class="product-card-heading pd-t-3 pd-b-3">
                             <h3>Sušenky</h3>

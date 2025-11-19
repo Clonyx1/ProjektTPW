@@ -30,13 +30,14 @@
 
 
 /*---------------------------------MEDIA QUERY--------------------------------*/
+@media(max-width: 1000px){
+        .site-header .navigation ul {
+        display: none;
+    }
+}
 @media (max-width: 800px) {
     .navigation {
         justify-content: flex-end;
-    }
-
-    .site-header .navigation ul {
-        display: none;
     }
 }
 

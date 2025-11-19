@@ -46,9 +46,9 @@
 }
 
 /*---------------------------------MEDIA QUERY--------------------------------*/
-@media(max-width: 820px) {
-    .product-card-text {
-        font-size: var(--font-size-2xs);
+@media(max-width: 1370px){
+        .product-card-text {
+        font-size: var(--font-size-xs);
     }
 }
 

@@ -41,7 +41,7 @@
     fill: var(--neutral);
 }
 /*---------------------------------MEDIA QUERY--------------------------------*/
-@media (max-width: 800px){
+@media (max-width: 1000px){
     #mobile-menu-button{
         display: block;
     }

@@ -31,12 +31,12 @@
 }
 
 .hero-link a {
-    padding: var(--size-unit-1);
     font-size: var(--font-size-2xl);
     text-decoration: underline;
     color: var(--key);
     background-color: var(--primary);
-    transition: 0.5s ease-in;
+    transition: background-color 0.7s linear;
+    transition: color 0.7s linear;
 }
 
 .hero-link a:hover {
@@ -57,8 +57,6 @@
     padding: var(--size-unit-3);
     border-bottom: 2px solid var(--neutral);
     border-top: 2px solid var(--neutral);
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 .social-media-wrap .heading-standard h2{
@@ -109,7 +107,7 @@
     }
 
     .hero-link {
-        margin: 0;
+        margin-top: 0;
     }
 
     .hero-link a {
