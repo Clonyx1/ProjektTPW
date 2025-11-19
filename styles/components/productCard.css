@@ -8,7 +8,7 @@
 }
 
 .product-card-heading h3, .product-card-text, .product-card-price p{
-    color: var(--neutral);
+    color: var(--key);
 }
 
 .product-card-heading h3 {

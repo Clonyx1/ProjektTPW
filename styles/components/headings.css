@@ -39,6 +39,7 @@
 /*---------------------------------MEDIA QUERY--------------------------------*/
 @media (max-width: 620px) {
     .heading-display h2 {
+        color: var(--key);
         font-size: var(--font-size-2xl);
         margin-top: var(--size-unit-3);
         background-image: url(../../obrazky/underscore-black.png);

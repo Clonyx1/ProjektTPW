@@ -25,6 +25,7 @@ footer {
 }
 
 .footer-copyright {
+    color: var(--neutral);
     font-size: var(--font-size-m);
 }
 
@@ -37,11 +38,14 @@ footer {
     }
     .footer-top {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .footer-top .navigation{
         width: 100%;
     }
     .footer-top .navigation ul{
+        width: 100%;
         justify-content: center;
     }
 }

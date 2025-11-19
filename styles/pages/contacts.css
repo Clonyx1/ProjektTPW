@@ -27,7 +27,7 @@
 .delivery-info-table th,
 td {
     border: 1px solid var(--neutral);
-    text-align: left;
+    
 }
 
 .contact-form-wrap {
@@ -58,7 +58,7 @@ td {
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
     font-weight: 600;
-    color: var(--neutral);
+    color: var(--key);
 }
 
 .contact-form input::placeholder {

@@ -37,13 +37,13 @@
 }
 
 .search-bar input::placeholder {
-    color: var(--neutral);
+    color: var(--key);
     font-size: var(--font-size-xs);
     font-weight: bold;
 }
 
 .search-bar svg {
-    fill: var(--neutral);
+    fill: var(--key);
     height: var(--size-unit-5);
 }
 

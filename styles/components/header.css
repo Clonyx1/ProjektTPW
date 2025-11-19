@@ -1,6 +1,6 @@
 /*Header styles*/
 .site-header {
-    height: calc(var(--size-unit-2) * 10);
+    height: calc(var(--size-unit-2) * 8.5);
     max-width: calc(var(--size-unit-7)*30);
     border-bottom: 2px solid var(--neutral);
 }

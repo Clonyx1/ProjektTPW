@@ -7,6 +7,7 @@
 }
 
 .open-position-card-heading h3 {
+    color: var(--key);
     font-size: var(--font-size-l);
     font-weight: bold;
 }
@@ -27,17 +28,20 @@
 
 .open-position-card-summary p {
     display: inline-block;
+    width: calc(var(--size-unit-7) * 3.9);
     background-color: var(--base);
     border-radius: var(--size-unit-4);
 }
 
 .open-position-card-summary p {
+    color: var(--neutral);
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .open-position-card-summary p svg {
+    fill: var(--neutral);
     height: calc(var(--size-unit-4) * 1);
 }
 
@@ -77,10 +81,13 @@
 }
 
 /*---------------------------------MEDIA QUERY--------------------------------*/
-@media(max-width: 550px) {
+@media(max-width: 680px) {
     .open-position-card-summary{
         flex-direction: column;
         gap: var(--size-unit-3);
+    }
+
+    .open-position-card-summary p{
         width: 80%;
     }
 }

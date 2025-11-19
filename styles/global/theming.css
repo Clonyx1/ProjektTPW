@@ -1,8 +1,8 @@
 html.dark-theme{
     /*Colors*/
     --primary: #FFCC00;
-    --base: #000000;
-    --neutral: #f1f1f1;
+    --base: #111111;
+    --neutral: #e0e0e0;
     /*For see-through elements*/
     --neutral-rgb: 255, 255, 255;
     --accent: #5f8258;

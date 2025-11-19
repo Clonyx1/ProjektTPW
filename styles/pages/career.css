@@ -11,7 +11,7 @@
 }
 
 .open-position-card-text .text-standard ul li::marker{
-    color: var(--important);
+    color: var(--neutral);
 }
 
 /*---------------------------------MEDIA QUERY--------------------------------*/

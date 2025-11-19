@@ -34,14 +34,14 @@
     padding: var(--size-unit-1);
     font-size: var(--font-size-2xl);
     text-decoration: underline;
-    color: var(--neutral);
+    color: var(--key);
     background-color: var(--primary);
     transition: 0.5s ease-in;
 }
 
 .hero-link a:hover {
     color: var(--primary);
-    background-color: var(--neutral);
+    background-color: var(--key);
     text-shadow: var(--shadow-medium);
 }
 
@@ -62,6 +62,7 @@
 }
 
 .social-media-banner svg {
+    fill: var(--neutral);
     height: var(--size-unit-7);
 }
 
@@ -98,6 +99,7 @@
         height: calc(var(--size-unit-7) * 8);
     }
     .hero-text p {
+        color: var(--key);
         margin-top: 0;
         font-size: var(--font-size-m);
     }
@@ -108,11 +110,11 @@
 
     .hero-link a {
         color: var(--primary);
-        background-color: var(--neutral);
+        background-color: var(--key);
     }
 
     .hero-link a:hover {
-        color: var(--neutral);
+        color: var(--key);
         background-color: var(--primary);
         text-shadow: var(--shadow-medium);
     }

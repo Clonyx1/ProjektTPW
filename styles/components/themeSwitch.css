@@ -7,9 +7,12 @@
 
 .switch {
   position: relative;
-  display: inline-block;
-  width: 48px;
-  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(var(--size-unit-5) * 2);
+  height: var(--size-unit-5);
 }
 
 .slider {
@@ -20,7 +23,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--soft);
+  background-color: var(--base);
   border-radius: var(--size-unit-5);
   transition: 0.3s;
 }
@@ -32,16 +35,15 @@
   width: calc(var(--size-unit-5) * 0.7);
   left: calc(var(--size-unit-1) * 0.5);
   bottom: calc(var(--size-unit-1) * 0.5);
-  background-color: var(--key);
+  background-color: var(--neutral);
   border-radius: 50%;
   transition: 0.3s;
 }
 
 .switch input:checked + .slider {
-  background-color: var(--neutral);
+  border: 2px solid var(--neutral);
 }
 
-/* posun kolečka */
 .switch input:checked + .slider::before {
   transform: translateX(var(--size-unit-5));
 }
