@@ -1,7 +1,8 @@
 /*Heading*/
 .heading-display h2,
 .heading-standard h2,
-.heading-small h3{
+.heading-small h3 {
+    color: var(--neutral);
     display: inline-block;
     /*Velikost podle textu*/
     padding-bottom: calc(var(--size-unit-3) * 1.25);
@@ -29,11 +30,12 @@
     font-weight: bold;
 }
 
-.heading-smallest h4{
+.heading-smallest h4 {
     font-size: var(--font-size-m);
     font-weight: bold;
     padding-bottom: calc(var(--size-unit-3) * 1.25);
 }
+
 /*---------------------------------MEDIA QUERY--------------------------------*/
 @media (max-width: 620px) {
     .heading-display h2 {
@@ -42,16 +44,9 @@
         background-image: url(../../obrazky/underscore-black.png);
         margin-bottom: var(--size-unit-3);
     }
-
-    .heading-standard h2 {
-        font-size: var(--font-size-m);
-    }
 }
 
 @media (max-width: 520px) {
-    .heading-standard h2 {
-        font-size: var(--font-size-s);
-    }
 
     .heading-display h2 {
         font-size: var(--font-size-l);

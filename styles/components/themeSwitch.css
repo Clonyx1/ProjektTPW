@@ -1,0 +1,46 @@
+/* ukrytí originálního checkboxu */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--soft);
+  border-radius: var(--size-unit-5);
+  transition: 0.3s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: calc(var(--size-unit-5) * 0.9);
+  width: calc(var(--size-unit-5) * 0.9);
+  left: calc(var(--size-unit-1) * 0.5);
+  bottom: calc(var(--size-unit-1) * 0.5);
+  background-color: var(--base);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.switch input:checked + .slider {
+  background-color: var(--highlight);
+}
+
+/* posun kolečka */
+.switch input:checked + .slider::before {
+  transform: translateX(var(--size-unit-5));
+}

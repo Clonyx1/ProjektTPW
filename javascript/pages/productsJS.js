@@ -9,10 +9,10 @@ if(searchInput && productCards){
         const productNameElement = card.querySelector('.product-card-heading');
         const productNameText = productNameElement.innerText.toLowerCase();
         if(productNameText.includes(filter)){
-            card.style.display = '';
+            card.classList.remove('hidden');
         }
         else{
-            card.style.display = 'none';
+            card.classList.add('hidden');
         }
     });
 });

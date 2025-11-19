@@ -1,4 +1,8 @@
 /*Text*/
+.text-standard p,.text-standard ul li{
+    color: var(--neutral);
+}
+
 .text-standard p {
     font-size: var(--font-size-m);
 }

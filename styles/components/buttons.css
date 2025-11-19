@@ -1,5 +1,7 @@
 /*Buttons*/
+
 .button-secondary a {
+    color: var(--neutral);
     font-size: var(--font-size-l);
     background-color: var(--soft);
     padding: var(--size-unit-2) calc(var(--size-unit-7) * 2);
@@ -13,6 +15,7 @@
 }
 
 .button-highlight button {
+    color: var(--key);
     text-align: center;
     width: calc(var(--size-unit-7) * 5);
     font-size: var(--font-size-xs);

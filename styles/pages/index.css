@@ -15,7 +15,7 @@
 
 .hero-text p,
 .hero-link a {
-    margin-left: 2%;
+    color: var(--neutral);
     font-weight: 900;
     font-style: italic;
 }

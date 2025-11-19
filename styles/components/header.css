@@ -18,7 +18,7 @@
 }
 
 .main-logo {
-    font-size: var(--font-size-3xl);
+    font-size: calc(var(--font-size-xl) * 1.1);
     font-style: italic;
     font-weight: 800;
     line-height: 0.8;
@@ -37,6 +37,9 @@
     width: var(--size-unit-7);
 }
 
+#mobile-menu-button svg{
+    fill: var(--neutral);
+}
 /*---------------------------------MEDIA QUERY--------------------------------*/
 @media (max-width: 800px){
     #mobile-menu-button{

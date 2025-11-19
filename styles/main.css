@@ -2,6 +2,7 @@
 @import 'global/base.css';
 @import 'global/layout.css';
 @import 'global/utilities.css';
+@import 'global/theming.css';
 
 @import 'components/buttons.css';
 @import 'components/contactBanner.css';
@@ -17,6 +18,8 @@
 @import 'components/openPositionCard.css';
 @import 'components/mobileMenu.css';
 @import 'components/links.css';
+@import 'components/themeSwitch.css';
+@import 'components/searchSection.css';
 
 @import 'pages/contacts.css';
 @import 'pages/index.css';

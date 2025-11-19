@@ -1,0 +1,13 @@
+html.dark-theme{
+    /*Colors*/
+    --primary: #FFCC00;
+    --base: #000000;
+    --neutral: #f1f1f1;
+    /*For see-through elements*/
+    --neutral-rgb: 255, 255, 255;
+    --accent: #5f8258;
+    --highlight: #FFD1AF;
+    --soft: #474747;
+    --important: rgb(233, 135, 135);
+    --key: #000000;
+}

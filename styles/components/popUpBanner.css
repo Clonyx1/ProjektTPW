@@ -12,10 +12,6 @@
     bottom: 0;
 }
 
-.pop-up-wrap.hide {
-    display: none;
-}
-
 .pop-up {
     box-sizing: border-box;
     padding: var(--size-unit-3);
@@ -35,6 +31,7 @@
     float: right;
 }
 
+/*---------------------------------MEDIA QUERY--------------------------------*/
 @media(max-width: 620px){
     .pop-up .heading-standard h2{
         font-size: var(--font-size-l);

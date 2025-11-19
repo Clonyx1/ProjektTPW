@@ -9,7 +9,6 @@
     --highlight: #FFD1AF;
     --soft: #e4e4e4;
     --important: rgb(233, 135, 135);
-
     /*Shadows*/
     --shadow-standard: 0 4px 8px rgba(0, 0, 0, 0.1);
     --shadow-medium: 0 8px 12px rgba(0, 0, 0, 0.2);
@@ -46,6 +45,10 @@
 
     /*Fonts*/
     --font-family-primary: 'Sansita', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
