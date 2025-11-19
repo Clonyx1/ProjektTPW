@@ -61,6 +61,10 @@
     margin-right: 2%;
 }
 
+.social-media-wrap .heading-standard h2{
+    font-size: calc(var(--font-size-l) * 0.9);
+}
+
 .social-media-banner svg {
     fill: var(--neutral);
     height: var(--size-unit-7);

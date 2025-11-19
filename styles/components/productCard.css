@@ -84,7 +84,7 @@
     }
 
     .product-card-text p {
-        font-size: var(--font-size-3xs);
+        font-size: var(--font-size-2xs);
     }
 
     .product-card-price p {

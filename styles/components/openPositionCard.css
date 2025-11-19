@@ -66,6 +66,7 @@
 }
 
 .open-position-card-show-more-button svg {
+    fill: var(--key);
     width: var(--size-unit-7);
     height: var(--size-unit-7);
 }

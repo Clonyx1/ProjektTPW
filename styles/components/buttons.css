@@ -1,5 +1,9 @@
 /*Buttons*/
 
+.button-highlight button, .button-secondary a{
+    cursor: pointer;
+}
+
 .button-secondary a {
     color: var(--neutral);
     font-size: var(--font-size-l);
