@@ -27,7 +27,7 @@
     justify-content: flex-end;
 }
 
-.pop-up .button-highlight button {
+.pop-up .btn--highlight button {
     float: right;
 }
 

@@ -1,17 +1,16 @@
 /*Text*/
-.text-standard p,.text-standard ul li{
+.txt p{
+    font-size: var(--font-size-m);
+}
+
+.txt--standard p,.txt--standard ul li{
     color: var(--neutral);
 }
 
-.text-standard p {
-    font-size: var(--font-size-m);
-}
-
-.text-important p {
+.txt--important p {
     box-sizing: border-box;
     padding: var(--size-unit-1);
     display: inline-block;
-    font-size: var(--font-size-m);
     background-color: var(--important);
 }
 

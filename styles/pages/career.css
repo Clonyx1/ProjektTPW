@@ -6,11 +6,11 @@
     gap: 5%;
 }
 
-.open-position-card-text .text-standard ul{
+.open-position-card-text .txt--standard ul{
     list-style-type: disc;
 }
 
-.open-position-card-text .text-standard ul li::marker{
+.open-position-card-text .txt--standard ul li::marker{
     color: var(--neutral);
 }
 

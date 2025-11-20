@@ -40,9 +40,8 @@
     align-items: center;
 }
 
-.open-position-card-summary p svg {
+.open-position-card-summary .icon svg {
     fill: var(--neutral);
-    height: calc(var(--size-unit-4) * 1);
 }
 
 .open-position-card-heading {
@@ -65,15 +64,8 @@
     width: calc(var(--size-unit-7) * 1.25);
 }
 
-.open-position-card-show-more-button svg {
-    fill: var(--key);
-    width: var(--size-unit-7);
-    height: var(--size-unit-7);
-}
-
-.open-position-card-show-more-button svg:hover {
+.icon svg:hover {
     color: var(--primary);
-    cursor: pointer;
 }
 
 .open-position-card-text {

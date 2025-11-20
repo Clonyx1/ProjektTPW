@@ -59,13 +59,12 @@
     border-top: 2px solid var(--neutral);
 }
 
-.social-media-wrap .heading-standard h2{
+.social-media-wrap .heading--standard h2{
     font-size: calc(var(--font-size-l) * 0.9);
 }
 
-.social-media-banner svg {
+.social-media-banner .icon svg{
     fill: var(--neutral);
-    height: var(--size-unit-7);
 }
 
 

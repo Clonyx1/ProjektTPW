@@ -1,0 +1,25 @@
+.icon svg{
+    display: block;
+    fill: var(--key);
+    cursor: pointer;
+}
+
+.icon--xs svg{
+    height: var(--size-unit-4);
+}
+
+.icon--sm svg{
+    height: var(--size-unit-5);
+}
+
+.icon--md svg{
+    height: var(--size-unit-6);
+}
+
+.icon--lg svg{
+    height: calc(var(--size-unit-7) * 0.8);
+}
+
+.icon--xl svg{
+    height: var(--size-unit-7);
+}

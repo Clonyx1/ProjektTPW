@@ -42,10 +42,6 @@
     font-weight: bold;
 }
 
-.search-bar svg {
-    fill: var(--key);
-    height: var(--size-unit-5);
-}
 
 /*--------------------------------MEDIA QUERY-----------------------------*/
 

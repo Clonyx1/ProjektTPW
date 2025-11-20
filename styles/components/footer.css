@@ -25,6 +25,8 @@ footer {
 }
 
 .footer-copyright {
+    display: flex;
+    flex-direction: column;
     color: var(--neutral);
     font-size: var(--font-size-m);
 }
@@ -34,6 +36,7 @@ footer {
 /*---------------------------------MEDIA QUERY--------------------------------*/
 @media (max-width: 880px) {
     .footer-copyright{
+        align-items: center;
         margin-bottom: var(--size-unit-3);
     }
     .footer-top {

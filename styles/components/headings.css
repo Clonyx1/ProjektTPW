@@ -1,7 +1,5 @@
 /*Heading*/
-.heading-display h2,
-.heading-standard h2,
-.heading-small h3 {
+.heading h2, .heading h3{
     color: var(--neutral);
     display: inline-block;
     /*Velikost podle textu*/
@@ -14,23 +12,23 @@
     margin-bottom: var(--size-unit-5);
 }
 
-.heading-display h2 {
+.heading--display h2 {
     font-weight: 900;
     font-style: italic;
     font-size: var(--font-size-3xl);
 }
 
-.heading-standard h2 {
+.heading--standard h2 {
     font-size: var(--font-size-l);
     font-weight: bold;
 }
 
-.heading-small h3 {
+.heading--sm h3 {
     font-size: var(--font-size-m);
     font-weight: bold;
 }
 
-.heading-smallest h4 {
+.heading--xs h4 {
     font-size: var(--font-size-m);
     font-weight: bold;
     padding-bottom: calc(var(--size-unit-3) * 1.25);
@@ -38,12 +36,12 @@
 
 /*---------------------------------MEDIA QUERY--------------------------------*/
 @media(max-width: 950px){
-    .heading-display h2{
+    .heading--display h2{
         font-size: calc(var(--font-size-2xl));
     }
 }
 @media (max-width: 620px) {
-    .heading-display h2 {
+    .heading--display h2 {
         color: var(--key);
         margin-top: var(--size-unit-3);
         background-image: url(../../obrazky/underscore-black.png);
@@ -53,7 +51,7 @@
 
 @media (max-width: 520px) {
 
-    .heading-display h2 {
+    .heading--display h2 {
         font-size: var(--font-size-l);
     }
 }

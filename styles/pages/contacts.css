@@ -16,7 +16,7 @@
     grid-row: 1;
 }
 
-.delivery-info .text-important p {
+.delivery-info .txt--important p {
     width: 80%;
 }
 
@@ -96,7 +96,7 @@ td {
     gap: var(--size-unit-2);
 }
 
-.contacts-mobile .text-standard p {
+.contacts-mobile .txt--standard p {
     font-size: var(--font-size-s);
 }
 
@@ -149,7 +149,7 @@ td {
 }
 
 @media (max-width: 630px) {
-    .contacts-mobile .heading-standard h2 {
+    .contacts-mobile .heading--standard h2 {
         font-size: var(--font-size-m);
     }
 
@@ -157,7 +157,7 @@ td {
         width: 98%;
     }
 
-    .delivery-info .text-important p {
+    .delivery-info .txt--important p {
         width: 98%;
         word-wrap: break-word;
     }
