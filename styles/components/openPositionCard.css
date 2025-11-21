@@ -49,6 +49,7 @@
 
 .open-position-card-summary .icon svg {
     fill: var(--neutral);
+    cursor: default;
 }
 
 .open-position-card-show-more-button-wrap {
@@ -65,8 +66,12 @@
     width: calc(var(--size-unit-7) * 1.25);
 }
 
+.open-position-card-show-more-button-wrap .icon svg{
+    fill: var(--key);
+}
+
 .open-position-card-show-more-button-wrap .icon svg:hover {
-    color: var(--primary);
+    fill: var(--primary);
 }
 
 .open-position-card-text {

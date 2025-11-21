@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,address=no,date=no">
     <title>Pekárna Lukáš</title>
     <link rel="icon" href="obrazky/croissant_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.css">
@@ -21,8 +22,8 @@
         <!--Pop up banner-->
         <div class="pop-up-wrap hidden">
             <div class="pop-up pd-3 mr-r-2p">
-                <div class="heading heading--standard mr-l-2p pd-3">
-                    <h2>DŮLEŽITÉ</h2>
+                <div class="mr-l-2p pd-3">
+                    <h2 class="heading heading--standard">DŮLEŽITÉ</h2>
                 </div>
 
                 <div class="txt txt--important pd-3 mr-lr-2p">
@@ -95,12 +96,13 @@
                     <div class="navigation-menu">
                         <!--Theme switch-->
                         <div class="theme-switch-wrap mr-r-6">
-                            <label id="theme-info" class="txt txt--standard txt--3xs" for="theme-switch"><p>Světlý motiv</p></label>
-                             <label for="theme-switch" class="switch" aria-label="Přepnout motiv stránky">
+                            <span id="theme-info" class="txt txt--standard txt--3xs">Světlý motiv</span>
+                            <label for="theme-switch" class="switch" aria-label="Přepnout motiv stránky">
                                 <input id="theme-switch" type="checkbox">
                                 <span class="slider"></span>
                             </label>
                         </div>
+                        
                         <ul class="mr-0 pd-0">
                             <li>
                                 <a class="link link--primary" href="pages/nabidka.html">Nabídka produktů</a>
@@ -115,7 +117,8 @@
                     </div>
 
                     <div class="mobile-menu-button-wrap">
-                        <button class="icon icon--lg" type="button" id="mobile-menu-button" aria-label="Otevřít hlavní menu" aria-expanded="false">
+                        <button class="icon icon--lg" type="button" id="mobile-menu-button"
+                            aria-label="Otevřít hlavní menu" aria-expanded="false">
                             <svg xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                 <path
@@ -147,10 +150,10 @@
             <!--Hero section-->
             <section class="hero">
                 <div class="hero-text">
-                    <div class="heading heading--display mr-l-2p">
-                        <h1>
+                    <div class="mr-l-2p">
+                        <h2 class="heading heading--display">
                             Čersté, Lokální, Upřímné.
-                        </h1>
+                        </h2>
                     </div>
                     <br>
                     <p class="mr-l-2p">
@@ -163,25 +166,28 @@
             </section>
             <!--Social media banner-->
             <section class="social-media-wrap">
-                <div class="heading heading--standard mr-l-2p">
-                    <h2>Sledujte nás na sociálních sítích</h2>
+                <div class="mr-l-2p">
+                    <h2 class="heading heading--standard">Sledujte nás na sociálních sítích</h2>
                 </div>
                 <div class="social-media-banner mr-lr-2p">
-                    <a class="icon icon--xl" href="https://www.facebook.com/" target="_blank" aria-label="Odkaz na facebook">
+                    <a class="icon icon--xl" href="https://www.facebook.com/" target="_blank"
+                        aria-label="Odkaz na facebook">
                         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 320 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                             <path
                                 d="M80 299.3l0 212.7 116 0 0-212.7 86.5 0 18-97.8-104.5 0 0-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4 .4 37 1.2l0-88.7C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4l0 42.1-66 0 0 97.8 66 0z" />
                         </svg>
                     </a>
-                    <a class="icon icon--xl" href="https://www.youtube.com/" target="_blank" aria-label="Odkaz na youtube kanál">
+                    <a class="icon icon--xl" href="https://www.youtube.com/" target="_blank"
+                        aria-label="Odkaz na youtube kanál">
                         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                             <path
                                 d="M549.7 124.1C543.5 100.4 524.9 81.8 501.4 75.5 458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5C51.2 81.8 32.7 100.4 26.4 124.1 15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8 42.6 11.5 213.4 11.5 213.4 11.5s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6l0-162.4 142.7 81.2-142.7 81.2z" />
                         </svg>
                     </a>
-                    <a class="icon icon--xl" href="https://www.instagram.com/" target="_blank" aria-label="Odkaz na Instagram">
+                    <a class="icon icon--xl" href="https://www.instagram.com/" target="_blank"
+                        aria-label="Odkaz na Instagram">
                         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                             <path
@@ -220,13 +226,14 @@
 
             <section class="map-section-wrap">
                 <div class="map-section mr-lr-2p">
-                    <div class="heading heading--standard">
-                        <h2>Kde nás najdete</h2>
+                    <div>
+                        <h2 class="heading heading--standard">Kde nás najdete</h2>
                     </div>
                     <div class="map">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2553.7240629709086!2d15.827458876972974!3d50.203688571546046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470c2b3387ae60bd%3A0x8365ae5997d44176!2sFakulta%20informatiky%20a%20managementu%20Univerzity%20Hradec%20Kr%C3%A1lov%C3%A9!5e0!3m2!1scs!2scz!4v1760460424165!5m2!1scs!2scz"
-                            aria-label="Poloha obchodu na mapě" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            aria-label="Poloha obchodu na mapě" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </section>

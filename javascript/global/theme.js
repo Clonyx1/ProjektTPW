@@ -1,6 +1,6 @@
 const storageKey = "themeSwitch";
 const themeBtn = document.getElementById('theme-switch');
-const themeLabel = document.querySelector('label#theme-info p')
+const themeLabel = document.querySelector('#theme-info')
 
 if (sessionStorage.getItem(storageKey) === 'true') {
     document.documentElement.classList.add('dark-theme');

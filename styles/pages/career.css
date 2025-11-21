@@ -14,6 +14,10 @@
     color: var(--neutral);
 }
 
+.career-intro-section-search .search-bar .icon svg{
+    cursor: default;
+}
+
 /*---------------------------------MEDIA QUERY--------------------------------*/
 @media(max-width: 915px){
     .career-intro-section{

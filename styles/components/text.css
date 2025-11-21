@@ -1,17 +1,17 @@
 /*Text*/
-.txt p{
+.txt ,.txt p{
     font-size: var(--font-size-m);
 }
 
-.txt--standard p,.txt--standard ul li{
+.txt--standard,.txt--standard p,.txt--standard ul li{
     color: var(--neutral);
 }
 
-.txt--3xs p{
+.txt--3xs, .txt--3xs p{
     font-size: var(--font-size-3xs);
 }
 
-.txt--important p {
+.txt--important, .txt--important p {
     box-sizing: border-box;
     padding: var(--size-unit-1);
     display: inline-block;

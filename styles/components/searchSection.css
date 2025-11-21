@@ -12,6 +12,10 @@
     margin-bottom: var(--size-unit-3);
 }
 
+.search-section .icon svg{
+    cursor: default;
+}
+
 .input-wrap {
     display: flex;
     align-items: center;
