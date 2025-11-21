@@ -6,8 +6,15 @@
     flex-direction: column;
 }
 
+.open-position-card-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 .open-position-card-heading h3 {
-    color: var(--key);
+    color: var(--neutral);
     font-size: var(--font-size-l);
     font-weight: bold;
 }
@@ -44,12 +51,6 @@
     fill: var(--neutral);
 }
 
-.open-position-card-heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .open-position-card-show-more-button-wrap {
     width: 10%;
     height: var(--size-unit-7);
@@ -64,7 +65,7 @@
     width: calc(var(--size-unit-7) * 1.25);
 }
 
-.icon svg:hover {
+.open-position-card-show-more-button-wrap .icon svg:hover {
     color: var(--primary);
 }
 

@@ -7,6 +7,10 @@
     color: var(--neutral);
 }
 
+.txt--3xs p{
+    font-size: var(--font-size-3xs);
+}
+
 .txt--important p {
     box-sizing: border-box;
     padding: var(--size-unit-1);

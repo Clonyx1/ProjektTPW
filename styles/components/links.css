@@ -2,6 +2,7 @@
   color: var(--neutral);
   text-decoration: none;
   position: relative;
+  display: inline-block;
 }
 
 .link::after {
@@ -16,6 +17,10 @@
 }
 
 .link:hover::after {
+  width: 100%;
+}
+
+.link.active::after {
   width: 100%;
 }
 

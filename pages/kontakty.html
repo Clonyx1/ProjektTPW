@@ -93,6 +93,7 @@
                     <div class="navigation-menu">
                         <!--Theme switch-->
                         <div class="theme-switch-wrap mr-r-6">
+                            <label id="theme-info" class="txt txt--standard txt--3xs" for="theme-switch"><p>Světlý motiv</p></label>
                              <label for="theme-switch" class="switch" aria-label="Přepnout motiv stránky">
                                 <input id="theme-switch" type="checkbox">
                                 <span class="slider"></span>
@@ -222,11 +223,11 @@
                         <div class="contact-form">
                             <form>
                                 <input class="pd-3 mr-tb-2" type="text" id="name" name="name"
-                                    placeholder="Jméno a příjmení">
+                                    placeholder="Jméno a příjmení" aria-label="Jméno a příjmení">
                                 <input class="pd-3 mr-tb-2" type="email" id="email" name="email"
-                                    placeholder="Email"><br>
+                                    placeholder="Email" aria-label="Email"><br>
                                 <textarea class="mr-tb-2" name="text" id="text"
-                                    placeholder="Text Vaší zprávy"></textarea> <br>
+                                    placeholder="Text Vaší zprávy" aria-label="Text vaší zprávy"></textarea> <br>
                                 <div class="btn btn--highlight">
                                     <button type="submit" id="send" name="send">ODESLAT</button>
                                 </div>
@@ -394,7 +395,7 @@
         <footer>
             <div class="footer-top">
                 <div class="footer-copyright mr-l-2">
-                    <p>&copy 2025 Pekárna Lukáš</p>
+                    <p>&copy; 2025 Pekárna Lukáš</p>
                     <p>korinlu2@uhk.cz</p>
                 </div>
                 <nav class="navigation mr-r-2p">
@@ -413,6 +414,7 @@
             </div>
         </footer>
     </div>
+    <script src="../javascript/components/navigation.js"></script>
     <script src="../javascript/global/theme.js"></script>
     <script src="../javascript/components/header.js"></script>
     <script src="../javascript/components/popUpBanner.js"></script>

@@ -93,6 +93,7 @@
                     <div class="navigation-menu">
                         <!--Theme switch-->
                         <div class="theme-switch-wrap mr-r-6">
+                            <label id="theme-info" class="txt txt--standard txt--3xs" for="theme-switch"><p>Světlý motiv</p></label>
                              <label for="theme-switch" class="switch" aria-label="Přepnout motiv stránky">
                                 <input id="theme-switch" type="checkbox">
                                 <span class="slider"></span>
@@ -147,13 +148,13 @@
                 </div>
                 <div class="search-bar">
                     <div class="input-wrap">
-                        <input id="searchInput" type="search" placeholder="Hledat v sekci">
-                        <button class="icon icon--sm" id="searchButton">
+                        <input id="searchInput" type="search" placeholder="Hledat v sekci" aria-label="Hledat produkt podle jména">
+                        <span class="icon icon--sm pd-r-2">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path
                                     d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376C296.3 401.1 253.9 416 208 416 93.1 416 0 322.9 0 208S93.1 0 208 0 416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
                             </svg>
-                        </button>
+                        </span>
                     </div>
                 </div>
             </section>
@@ -449,7 +450,7 @@
         <footer>
             <div class="footer-top">
                 <div class="footer-copyright mr-l-2">
-                    <p>&copy 2025 Pekárna Lukáš</p>
+                    <p>&copy; 2025 Pekárna Lukáš</p>
                     <p>korinlu2@uhk.cz</p>
                 </div>
                 <nav class="navigation mr-r-2p">
@@ -468,6 +469,7 @@
             </div>
         </footer>
     </div>
+    <script src="../javascript/components/navigation.js"></script>
     <script src="../javascript/global/theme.js"></script>
     <script src="../javascript/pages/productsJS.js"></script>
     <script src="../javascript/components/header.js"></script>

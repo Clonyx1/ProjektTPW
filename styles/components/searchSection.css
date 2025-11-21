@@ -18,12 +18,14 @@
     width: 100%;
 }
 
-.input-wrap button {
+.input-wrap span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--soft);
     border: none;
     margin: 0;
     height: calc(var(--size-unit-7) * 0.8);
-    cursor: pointer;
 }
 
 .search-bar input {

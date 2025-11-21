@@ -1,3 +1,4 @@
+
 const menuBtn = document.getElementById('mobile-menu-button');
 const navigationModal = document.getElementById('mobile-menu');
 
