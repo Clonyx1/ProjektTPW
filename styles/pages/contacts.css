@@ -149,7 +149,7 @@ td {
 }
 
 @media (max-width: 630px) {
-    .contacts-mobile .heading--standard h2 {
+    .contacts-mobile .heading--standard {
         font-size: var(--font-size-m);
     }
 
