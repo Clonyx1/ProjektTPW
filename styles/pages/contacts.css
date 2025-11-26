@@ -16,12 +16,13 @@
     grid-row: 1;
 }
 
-.delivery-info .txt--important p {
-    width: 80%;
+.delivery-info .txt--important p,
+.delivery-info .txt--important {
+    width: 100%;
 }
 
 .delivery-info-table {
-    width: 80%;
+    width: 100%;
 }
 
 .delivery-info-table th,
@@ -33,7 +34,7 @@ td {
 .contact-form-wrap {
     grid-column: 1 / 2;
     grid-row: 2;
-    width: 80%;
+    width: 100%;
 }
 
 .contact-form {
@@ -139,7 +140,7 @@ td {
     }
 
     .contact-form-wrap {
-        width: 95%;
+        width: 98%;
         grid-row: 2;
     }
 
