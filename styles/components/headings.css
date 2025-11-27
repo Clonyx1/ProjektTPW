@@ -27,11 +27,6 @@
     font-size: var(--font-size-m);
 }
 
-.heading--xs {
-    font-size: var(--font-size-m);
-    padding-bottom: calc(var(--size-unit-3) * 1.25);
-}
-
 /*---------------------------------MEDIA QUERY--------------------------------*/
 @media(max-width: 950px){
     .heading--display {

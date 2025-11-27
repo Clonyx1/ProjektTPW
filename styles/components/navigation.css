@@ -30,7 +30,7 @@
 
 
 /*---------------------------------MEDIA QUERY--------------------------------*/
-@media(max-width: 1000px){
+@media(max-width: 1010px){
         .site-header .navigation ul {
         display: none;
     }

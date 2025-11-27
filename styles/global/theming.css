@@ -1,4 +1,4 @@
-html.dark-theme{
+html.dark-theme {
     /*Colors*/
     --primary: #FFCC00;
     --base: #111111;
@@ -10,4 +10,12 @@ html.dark-theme{
     --soft: #474747;
     --important: rgb(233, 135, 135);
     --key: #000000;
+}
+
+html.dark-theme .btn--highlight button:hover {
+    box-shadow: var(--shadow-standard);
+    background-color: var(--base);
+    border: 2px solid var(--highlight);
+    color: var(--highlight);
+    transition: background-color 0.3s ease;
 }

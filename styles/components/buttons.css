@@ -12,11 +12,13 @@
     font-size: var(--font-size-l);
     background-color: var(--soft);
     padding: var(--size-unit-2) calc(var(--size-unit-7) * 2);
+    transition: background-color 0.3s ease;
 }
 
 .btn--secondary a:hover {
-    filter: sepia(0.3);
     box-shadow: var(--shadow-standard);
+    background-color: var(--neutral);
+    color: var(--base);
 }
 
 .btn--highlight button {
@@ -30,7 +32,10 @@
 
 .btn--highlight button:hover {
     box-shadow: var(--shadow-standard);
-    filter: sepia(0.2);
+    background-color: var(--highlight);
+    filter: sepia(0.3);
+    color: var(--neutral);
+    transition: background-color 0.3s ease;
 }
 
 
