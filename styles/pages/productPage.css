@@ -31,31 +31,5 @@
     .product-section-grid {
         grid-template-columns: 1fr 1fr;
     }
-
-    .product-card-heading {
-        font-size: var(--font-size-2xs);
-    }
-
-    .product-card-price {
-        font-size: var(--font-size-3xs);
-    }
 }
 
-@media (max-width: 520px) {
-
-    .product-card {
-        height: calc(var(--size-unit-7) * 6);
-    }
-
-    .product-card-img img {
-        height: calc(var(--size-unit-7) * 4);
-    }
-
-    .product-card-heading {
-        font-size: var(--font-size-2xs);
-    }
-
-    .product-card-price p {
-        font-size: var(--font-size-xs);
-    }
-}

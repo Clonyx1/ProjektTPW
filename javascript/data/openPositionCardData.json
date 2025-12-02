@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Pekař",
+        "employment": "Plný úvazek",
+        "salary": "Plat: 40 000 - 50 000Kč",
+        "location": "Hradec Králové",
+        "tasks": [
+            "Příprava a pečení čerstvého chleba, rohlíků, housek a dalších pečiv podle našich receptur",
+            "Dodržování hygienických a bezpečnostních standardů",
+            "Spolupráce s týmem – pomoc kolegům a podíl na hladkém chodu pekárny",
+            "Možnost podílet se na tvorbě nových produktů a receptur"
+        ],
+        "expectations": [
+            "Praxi nebo zájem učit se pekařskému řemeslu",
+            "Pečlivost, spolehlivost a chuť pracovat v týmu",
+            "Ranní vstávání pro teplý chléb – ranní ptáčata vítána",
+            "Nadšení pro kvalitní suroviny a tradiční i moderní pečení"
+        ]
+    },
+    {
+        "name": "Vedoucí prodejny pekárny",
+        "employment": "Plný úvazek",
+        "salary": "Plat: 55 000 - 70 000Kč",
+        "location": "Hradec Králové",
+        "tasks": [
+            "Vedení týmu prodejců a brigádníků",
+            "Plánování směn a organizace chodu prodejny",
+            "Kontrola zásob, objednávky zboží a komunikace s pekaři",
+            "Zajištění vysoké kvality obsluhy zákazníků",
+            "Administrativní činnosti související s provozem prodejny"
+        ],
+        "expectations": [
+            "Zkušenost s vedením malého týmu nebo prodejnou výhodou",
+            "Komunikační a organizační schopnosti",
+            "Spolehlivost, pečlivost a schopnost rozhodovat",
+            "Znalost práce s pokladním systémem výhodou",
+            "Ochotu pracovat flexibilně dle provozu prodejny"
+        ]
+    },
+    {
+        "name": "Brigádník/ce – prodej pečiva a obsluha zákazníků",
+        "employment": "Brigáda",
+        "salary": "Plat: 180Kč/hod",
+        "location": "Hradec Králové",
+        "tasks": [
+            "Obsluha zákazníků a poradenství při výběru pečiva",
+            "Doplňování vitrín a udržování prodejny v čistotě",
+            "Práce s pokladnou a manipulace s hotovostí",
+            "Balení a příprava zboží k prodeji",
+            "Jednoduché pomocné práce v zázemí pekárny"
+        ],
+        "expectations": [
+            "Příjemné vystupování a dobré komunikační schopnosti",
+            "Ochotu pracovat o víkendech nebo ve špičkách během týdne",
+            "Zodpovědnost a dochvilnost",
+            "Základní znalost práce s pokladnou výhodou"
+        ]
+    },
+    {
+        "name": "Brigádník/ce – balení a expedice pečiva",
+        "employment": "Brigáda",
+        "salary": "Plat: 180Kč/hod",
+        "location": "Hradec Králové",
+        "tasks": [
+            "Balení pečiva do krabic a sáčků podle objednávek",
+            "Příprava zásilek a expedice pro zákazníky",
+            "Kontrola kvality zboží před odesláním",
+            "Úklid a udržování pořádku v expedici",
+            "Spolupráce s týmem pro hladký chod pekárny"
+        ],
+        "expectations": [
+            "Spolehlivost a dochvilnost",
+            "Pečlivost při manipulaci s výrobky",
+            "Ochotu pracovat flexibilně, zejména dopoledne a o víkendech",
+            "Základní fyzickou zdatnost – práce je manuální",
+            "Zkušenost s balením nebo skladem výhodou, ale není podmínkou"
+        ]
+    }
+]
