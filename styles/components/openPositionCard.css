@@ -34,6 +34,7 @@
 }
 
 .open-position-card-summary p {
+    box-sizing: content-box;
     display: inline-block;
     width: calc(var(--size-unit-7) * 3.9);
     background-color: var(--base);
