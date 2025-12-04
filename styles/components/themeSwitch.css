@@ -6,8 +6,8 @@
 }
 .switch input {
   opacity: 0;
-  width: 0;
-  height: 0;
+  width: var(--size-unit-0);
+  height: var(--size-unit-0);
 }
 
 .switch {
@@ -21,7 +21,7 @@
 }
 
 .slider {
-  border: 2px solid var(--key);
+  border: calc(var(--size-unit-1) * 0.5) solid var(--key);
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -46,7 +46,7 @@
 }
 
 .switch input:checked + .slider {
-  border: 2px solid var(--neutral);
+  border: calc(var(--size-unit-1) * 0.5) solid var(--neutral);
 }
 
 .switch input:checked + .slider::before {

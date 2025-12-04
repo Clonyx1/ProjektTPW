@@ -27,7 +27,7 @@
 
 .delivery-info-table th,
 td {
-    border: 1px solid var(--neutral);
+    border: calc(var(--size-unit-1) * 0.25) solid var(--neutral);
 
 }
 
@@ -81,8 +81,8 @@ td {
 
 .contacts ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: var(--size-unit-0);
+    padding: var(--size-unit-0);
 }
 
 .contacts ul li {
@@ -108,8 +108,8 @@ td {
 
 .contact-item ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: var(--size-unit-0);
+    margin: var(--size-unit-0);
 }
 
 
@@ -119,7 +119,7 @@ td {
 @media (max-width: 880px) {
 
     .contact-section-grid>* {
-        min-width: 0;
+        min-width: var(--size-unit-0);
         white-space: normal;
         overflow-wrap: break-word;
     }

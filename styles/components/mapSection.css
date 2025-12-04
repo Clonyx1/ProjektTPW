@@ -5,7 +5,7 @@
 }
 
 .map iframe {
-    border: 2px solid var(--accent);
+    border: calc(var(--size-unit-1) * 0.5) solid var(--accent);
     width: 100%;
     height: calc(var(--size-unit-7) * 15);
 }

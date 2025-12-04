@@ -55,8 +55,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: var(--size-unit-3);
-    border-bottom: 2px solid var(--neutral);
-    border-top: 2px solid var(--neutral);
+    border-bottom: calc(var(--size-unit-1) * 0.5) solid var(--neutral);
+    border-top: calc(var(--size-unit-1) * 0.5) solid var(--neutral);
 }
 
 .social-media-wrap .heading--standard h2{
@@ -73,7 +73,7 @@
 @media (max-width: 1070px) {
     /*Hero styles*/
     .site-content .hero {
-        margin-bottom: 0;
+        margin-bottom: var(--size-unit-0);
     }
 }
 
@@ -101,12 +101,12 @@
     }
     .hero-text p {
         color: var(--key);
-        margin-top: 0;
+        margin-top: var(--size-unit-0);
         font-size: var(--font-size-m);
     }
 
     .hero-link {
-        margin-top: 0;
+        margin-top: var(--size-unit-0);
     }
 
     .hero-link a {

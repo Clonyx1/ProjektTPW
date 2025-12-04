@@ -2,7 +2,7 @@
 .site-header {
     height: calc(var(--size-unit-2) * 8.5);
     max-width: calc(var(--size-unit-7)*30);
-    border-bottom: 2px solid var(--neutral);
+    border-bottom: calc(var(--size-unit-1) * 0.5) solid var(--neutral);
 }
 
 .site-navigation {

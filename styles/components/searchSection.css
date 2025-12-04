@@ -8,7 +8,7 @@
 }
 
 .search-section .heading-standard h2 {
-    margin: 0;
+    margin: var(--size-unit-0);
     margin-bottom: var(--size-unit-3);
 }
 
@@ -28,7 +28,7 @@
     justify-content: center;
     background-color: var(--soft);
     border: none;
-    margin: 0;
+    margin: var(--size-unit-0);
     height: calc(var(--size-unit-7) * 0.8);
 }
 

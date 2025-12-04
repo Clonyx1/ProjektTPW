@@ -1,7 +1,7 @@
 /*FOOTER styles*/
 footer {
     max-width: calc(var(--size-unit-7)*30);
-    border-top: 2px solid var(--neutral);
+    border-top: calc(var(--size-unit-1) * 0.5) solid var(--neutral);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
