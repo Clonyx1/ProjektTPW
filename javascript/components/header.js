@@ -12,6 +12,8 @@ if (navigationModal) {
 if (menuBtn && navigationModal) {
     menuBtn.addEventListener("click", () => {
         toggleNavigationModal();
+
+        window.scrollTo(0, 0);
     })
 }
 
