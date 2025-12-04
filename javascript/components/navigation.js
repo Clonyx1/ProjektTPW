@@ -4,9 +4,9 @@ const ftrLinks = document.querySelectorAll('.link--secondary');
 
 const allLinks = Array.from(navLinks).concat(Array.from(ftrLinks));
 
-const currentPage = window.location.pathname.split('/').pop();
+let currentPage = window.location.pathname.split('/').pop();
 
-if(currentPage == '' || currentPage == '/'){
+if(currentPage == ''){
     currentPage = 'index.html';
 }
 

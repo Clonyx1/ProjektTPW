@@ -173,4 +173,7 @@ td {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .contacts-mobile .heading--standard {
+        font-size: var(--font-size-s);
+    }
 }

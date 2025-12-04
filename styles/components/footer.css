@@ -83,3 +83,9 @@ footer {
         font-size: var(--font-size-2xs);
     }
 }
+
+@media (max-width: 400px) {
+    .footer-top .navigation a {
+        font-size: var(--font-size-3xs);
+    }
+}
