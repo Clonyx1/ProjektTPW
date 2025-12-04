@@ -6,6 +6,10 @@ const allLinks = Array.from(navLinks).concat(Array.from(ftrLinks));
 
 const currentPage = window.location.pathname.split('/').pop();
 
+if(currentPage == '' || currentPage == '/'){
+    currentPage = 'index.html';
+}
+
 allLinks.forEach(link => {
     if(link.getAttribute('href') === currentPage){
         link.classList.add('active');
