@@ -1,4 +1,5 @@
 .icon svg{
+    box-sizing: content-box;
     display: block;
     fill: var(--key);
     cursor: pointer;
