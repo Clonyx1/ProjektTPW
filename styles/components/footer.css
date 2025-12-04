@@ -6,7 +6,8 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: calc(var(--size-unit-7) * 2);
+    min-height: calc(var(--size-unit-7) * 2);
+    height: auto;
 }
 
 .footer-top {
@@ -35,19 +36,22 @@ footer {
 
 /*---------------------------------MEDIA QUERY--------------------------------*/
 @media (max-width: 880px) {
-    .footer-copyright{
+    .footer-copyright {
         align-items: center;
         margin-bottom: var(--size-unit-3);
     }
+
     .footer-top {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .footer-top .navigation{
+
+    .footer-top .navigation {
         width: 100%;
     }
-    .footer-top .navigation ul{
+
+    .footer-top .navigation ul {
         width: 100%;
         justify-content: center;
     }
