@@ -4,104 +4,119 @@
     "text": "Klasika, která nikdy nezklame. Nadýchaný, křehký a čerstvě upečený.",
     "price": 4,
     "imgSrcset": "../obrazky/rohlik.avif",
-    "imgSrc": "../obrazky/rohlik.jpg"
+    "imgSrc": "../obrazky/rohlik.jpg",
+    "imgAlt": "Fotografie rohlíku"
   },
   {
     "name": "Rohlík sypaný",
     "text": "Rohlík sypaný mákem nebo solí pro výraznější chuť. Křupavý na povrchu, jemný uvnitř.",
     "price": 5,
     "imgSrcset": "../obrazky/rohlik-sypany.avif",
-    "imgSrc": "../obrazky/rohlik-sypany.jpg"
+    "imgSrc": "../obrazky/rohlik-sypany.jpg",
+    "imgAlt": "Fotografie rohlíku sypaného makem"
   },
   {
     "name": "Bageta",
     "text": "Křupavá a voňavá – naše bageta je perfektní základ pro sendviče nebo jako příloha.",
     "price": 15,
     "imgSrcset": "../obrazky/bageta.avif",
-    "imgSrc": "../obrazky/bageta.jpg"
+    "imgSrc": "../obrazky/bageta.jpg",
+    "imgAlt": "Fotografie obyčejné bagety"
   },
   {
     "name": "Bageta plněná",
     "text": "Křupavá bageta, ideální na oběd či svačinu – v kuřecí, šunkové či vegetariánské variantě.",
     "price": 42,
     "imgSrcset": "../obrazky/bageta-plnena.avif",
-    "imgSrc": "../obrazky/bageta-plnena.jpg"
+    "imgSrc": "../obrazky/bageta-plnena.jpg",
+    "imgAlt": "Fotografie naší obložené bagety"
   },
   {
     "name": "Chleba",
     "text": "Domácí chléb s křupavou kůrkou a měkkou střídou. Pečený s láskou z kvalitní mouky.",
     "price": 55,
     "imgSrcset": "../obrazky/bread.avif",
-    "imgSrc": "../obrazky/bread.jpg"
+    "imgSrc": "../obrazky/bread.jpg",
+    "imgAlt": "Fotografie chleba"
   },
   {
     "name": "Chleba žitný",
     "text": "Vláčný a výrazně aromatický, s dlouhou trvanlivostí a bohatou chutí, jak má být.",
     "price": 57,
     "imgSrcset": "../obrazky/rye-bread.avif",
-    "imgSrc": "../obrazky/rye-bread.jpg"
+    "imgSrc": "../obrazky/rye-bread.jpg",
+    "imgAlt": "Fotografie žitného chleba"
   },
   {
     "name": "Croissant",
     "text": "Máslový, nadýchaný a dokonale vrstvený. Skvělý ke kávě, snídani nebo jen tak pro radost.",
     "price": 22,
     "imgSrcset": "../obrazky/croissant.avif",
-    "imgSrc": "../obrazky/croissant.jpg"
+    "imgSrc": "../obrazky/croissant.jpg",
+    "imgAlt": "Fotografie croissantu s čokoládou"
   },
   {
     "name": "Kobliha",
     "text": "Lehounká a nadýchaná kobliha plněná sladkou marmeládou.",
     "price": 19,
     "imgSrcset": "../obrazky/koblihy.avif",
-    "imgSrc": "../obrazky/koblihy.jpg"
+    "imgSrc": "../obrazky/koblihy.jpg",
+    "imgAlt": "Fotografie koblih s cukrem a náplní"
   },
   {
     "name": "Donut",
     "text": "Barevný, hravý a sladký – měkký donut s cukrovou nebo čokoládovou polevou.",
     "price": 16,
     "imgSrcset": "../obrazky/donuty.avif",
-    "imgSrc": "../obrazky/donuty.jpg"
+    "imgSrc": "../obrazky/donuty.jpg",
+    "imgAlt": "Fotografie krabice s různými donuty"
   },
   {
     "name": "Makronka",
     "text": "Jemná francouzská delikatesa s křehkou krustou a lahodným krémem.",
     "price": 8,
     "imgSrcset": "../obrazky/macaroons.avif",
-    "imgSrc": "../obrazky/macaroons.jpg"
+    "imgSrc": "../obrazky/macaroons.jpg",
+    "imgAlt": "Fotografie stojanu s barevnými makronkami"
   },
   {
     "name": "Skořicový šnek",
     "text": "Voňavé kynuté těsto s náplní z másla, skořice a cukru. Sladká klasika, která zahřeje i potěší.",
     "price": 23,
     "imgSrcset": "../obrazky/cinamon-roll.avif",
-    "imgSrc": "../obrazky/cinamon-roll.jpg"
+    "imgSrc": "../obrazky/cinamon-roll.jpg",
+    "imgAlt": "Fotografie skořicového šneka"
   },
   {
     "name": "Muffin",
     "text": "Nadýchaný moučník plný chuti – čokoládový, borůvkový či vanilkový.",
     "price": 18,
     "imgSrcset": "../obrazky/muffins.avif",
-    "imgSrc": "../obrazky/muffins.jpg"
+    "imgSrc": "../obrazky/muffins.jpg",
+    "imgAlt": "Fotografie čerstvě upečeného muffinu"
   },
   {
     "name": "Větrník",
     "text": "Karamelový dezert z odpalovaného těsta, plněný lahodným krémem.",
     "price": 25,
     "imgSrcset": "../obrazky/vetrnik.avif",
-    "imgSrc": "../obrazky/vetrnik.jpg"
+    "imgSrc": "../obrazky/vetrnik.jpg",
+    "imgAlt": "Fotografie větrníku s polevou"
   },
   {
     "name": "Roláda s náplní",
     "text": "Nadýchaný piškot zarolovaný s jemnou náplní. Klasický moučník, který nikdy neomrzí.",
     "price": 40,
     "imgSrcset": "../obrazky/sladka-rolada.avif",
-    "imgSrc": "../obrazky/sladka-rolada.jpg"
+    "imgSrc": "../obrazky/sladka-rolada.jpg",
+    "imgAlt": "Fotografie sladké rolády s náplní"
   },
   {
     "name": "Sušenky",
     "text": "Křehké, máslové a voňavé. Ideální malá sladkost k čaji, kávě nebo jen tak na zub.",
     "price": 12,
     "imgSrcset": "../obrazky/cookies.avif",
-    "imgSrc": "../obrazky/cookies.jpg"
+    "imgSrc": "../obrazky/cookies.jpg",
+    "imgAlt": "Fotografie sušenek s čokoládou"
   }
 ]
