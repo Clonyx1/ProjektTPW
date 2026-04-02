@@ -44,7 +44,7 @@ The website consists of four pages:
 
 ## See for yourself
 
-You can see this website at: https://bakery.vercel.app/
+You can see this website at: https://pekarnalukas.vercel.app/
 
 
 
